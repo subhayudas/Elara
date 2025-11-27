@@ -1,6 +1,5 @@
 import NavBar from "@/components/Client/NavBar";
 import CompetitiveAdvantage from "@/components/Client/CompetitiveAdvantage";
-import BrandShowcase from "@/components/Client/BrandShowcase";
 import RetailExcellence from "@/components/Client/RetailExcellence";
 
 // import MilestonesSection from "@/sections/ElementisStory"; // Commented out as it's not being used
@@ -16,7 +15,6 @@ import Introduction from "@/sections/Introduction";
 
 import IndiaPresence from "@/sections/IndiaPresence";
 import BusinessChannels from "@/sections/BusinessChannels";
-import BrandPartners from "@/sections/BrandPartners";
 import GlobalPresence from "@/sections/GlobalPresence";
 import MarketingStrategy from "@/sections/MarketingStrategy";
 import FutureGrowth from "@/sections/FutureGrowth";
@@ -27,11 +25,9 @@ export default function Home() {
       <Introduction />
 
       <WellnessSanctuary />
-      <BrandShowcase />
       <RetailExcellence />
       <CompetitiveAdvantage />
       <BusinessChannels />
-      <BrandPartners />
       <IndiaPresence />
       <FutureGrowth />
       <MarketingStrategy />
