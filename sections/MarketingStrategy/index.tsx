@@ -142,7 +142,7 @@ export default function MarketingStrategy() {
           </span>
         </h2>
         <p className="text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
-          Aurelia Jewelry aims to expand its presence through a multi-fold strategy, leveraging digital platforms and showcasing exquisite craftsmanship.
+          Elara Jewelry aims to expand its presence through a multi-fold strategy, leveraging digital platforms and showcasing exquisite craftsmanship.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8 items-start">

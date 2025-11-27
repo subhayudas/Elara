@@ -139,7 +139,7 @@ export default function BrandPartners() {
           </span>
         </h2>
         <p className="text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
-          Aurelia Jewelry offers a wide range of fine jewelry collections, from engagement rings to custom-designed pieces, crafted with precision and passion.
+          Elara Jewelry offers a wide range of fine jewelry collections, from engagement rings to custom-designed pieces, crafted with precision and passion.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8 items-center">

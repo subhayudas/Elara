@@ -26,7 +26,7 @@ export default function RetailExcellence() {
           <ResponsiveMaskTextVariant
             desktop={[
               <Fragment key="d-0">
-                At Aurelia Jewelry, we believe in creating
+                At Elara Jewelry, we believe in creating
               </Fragment>,
               <Fragment key="d-1">
                 exceptional jewelry experiences through our
@@ -46,7 +46,7 @@ export default function RetailExcellence() {
             ]}
             mobile={[
               <Fragment key="m-0">
-                At Aurelia Jewelry, we believe in creating
+                At Elara Jewelry, we believe in creating
               </Fragment>,
               <Fragment key="m-1">
                 exceptional jewelry experiences through

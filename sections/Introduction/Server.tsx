@@ -13,7 +13,7 @@ export default function IntroductionServer() {
       <div className="flex flex-col gap-12 md:col-start-2 md:gap-20">
           <ResponsiveMaskText
           mobile={[
-            <Fragment key="m-1">Welcome to Aurelia Jewelry</Fragment>,
+            <Fragment key="m-1">Welcome to Elara Jewelry</Fragment>,
             <Fragment key="m-2">
               <span>a premier</span> jewelry company
             </Fragment>,
@@ -26,7 +26,7 @@ export default function IntroductionServer() {
           ]}
           desktop={[
             <Fragment key="d-1">
-              Welcome to <span>Aurelia Jewelry</span>,
+              Welcome to <span>Elara Jewelry</span>,
             </Fragment>,
             <Fragment key="d-2">
               <span>a premier</span> jewelry company
@@ -47,7 +47,7 @@ export default function IntroductionServer() {
 
         <MaskText
           lines={[
-            <Fragment key="l-1">Founded in 2015, Aurelia Jewelry has established</Fragment>,
+            <Fragment key="l-1">Founded in 2015, Elara Jewelry has established</Fragment>,
             <Fragment key="l-2">a reputation through exceptional craftsmanship,</Fragment>,
             <Fragment key="l-3">
               premium quality diamonds and gemstones, and

@@ -82,7 +82,7 @@ export default function Footer() {
         <StayConnected className="justify-end gap-y-6 text-base [line-height:1] max-md:mt-12 md:col-start-2 md:gap-y-12 [&_div]:gap-x-8 md:[&_div]:gap-x-10 [&_path]:[fill:#D1CCBF]" />
       </div>
       <div className="flex flex-col gap-y-4 bg-[#2B3530] px-3-75 py-7-5 text-xs text-[#D1CCBF] md:flex-row md:justify-between md:pb-10 md:text-base [&_.animated-underline]:h-px [&_.animated-underline]:bg-[#D1CCBF]">
-        <div className="md:flex-1">© 2024 Aurelia Jewelry. All Rights Reserved</div>
+        <div className="md:flex-1">© 2024 Elara Jewelry. All Rights Reserved</div>
         <Link href="#">
           <DashedLink className="w-fit cursor-pointer">
             Policies and Terms
@@ -90,7 +90,7 @@ export default function Footer() {
         </Link>
         <div className="flex flex-1 justify-end">
           <DashedLink className="w-fit cursor-default">
-            Aurelia Jewelry
+            Elara Jewelry
           </DashedLink>
         </div>
       </div>

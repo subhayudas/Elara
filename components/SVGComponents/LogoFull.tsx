@@ -28,7 +28,7 @@ export default function LogoFull(props: LogoFullProps) {
         ease: [0.24, 0.43, 0.15, 0.97],
       }}
     >
-      <span className="text-3xl font-semibold tracking-widest md:text-4xl">Aurelia</span>
+      <span className="text-3xl font-semibold tracking-widest md:text-4xl">Elara</span>
       <span className="ml-2 text-base font-light tracking-wider md:text-lg">JEWELRY</span>
     </motion.div>
   );

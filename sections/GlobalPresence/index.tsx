@@ -8,21 +8,21 @@ const contactInfo = {
     title: "Corporate Office",
     address: "AB-1, First Floor, Community Centre, Safdarjung Enclave, New Delhi-110029",
     phone: "011-40113227",
-    email: "info@aureliajewelry.com"
+    email: "info@Elarajewelry.com"
   },
   bangalore: {
     title: "Bangalore Boutique",
     address: "20/1, Edan Park, Mezzanine Floor, Vittal Malya Road, Bangalore, Karnataka-560001",
     phone: "",
-    email: "info@aureliajewelry.com"
+    email: "info@Elarajewelry.com"
   }
 };
 
 // Social media links
 const socialLinks = [
-  { name: "Instagram", url: "https://instagram.com/aureliajewelry", icon: "instagram" },
-  { name: "LinkedIn", url: "https://linkedin.com/company/aureliajewelry", icon: "linkedin" },
-  { name: "Website", url: "https://aureliajewelry.com", icon: "globe" }
+  { name: "Instagram", url: "https://instagram.com/Elarajewelry", icon: "instagram" },
+  { name: "LinkedIn", url: "https://linkedin.com/company/Elarajewelry", icon: "linkedin" },
+  { name: "Website", url: "https://Elarajewelry.com", icon: "globe" }
 ];
 
 
@@ -49,7 +49,7 @@ export default function GlobalPresence() {
           </span>
         </h2>
         <p className="text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
-          Aurelia Jewelry has established a strong presence across India with premium boutique stores and continues to expand with exquisite fine jewelry collections.
+          Elara Jewelry has established a strong presence across India with premium boutique stores and continues to expand with exquisite fine jewelry collections.
         </p>
 
         <div className="flex flex-col gap-12 items-center">

@@ -138,7 +138,7 @@ export default function IndiaPresence() {
           </span>
         </h2>
         <p className="section-title text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
-          Aurelia Jewelry has established a strong presence across India with {totalStores} boutique stores and {totalEmployees} employees spanning multiple states.
+          Elara Jewelry has established a strong presence across India with {totalStores} boutique stores and {totalEmployees} employees spanning multiple states.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8 items-center">
@@ -242,7 +242,7 @@ export default function IndiaPresence() {
             <div className="stats-card bg-[#2a3530]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#2e493c]/50 mb-6">
                 <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Boutique Presence</h3>
                 <p className="text-[#c9d1be]">
-                Aurelia Jewelry operates {totalStores} premium boutique stores featuring exquisite engagement rings, wedding collections, and custom-designed jewelry across India.
+                Elara Jewelry operates {totalStores} premium boutique stores featuring exquisite engagement rings, wedding collections, and custom-designed jewelry across India.
               </p>
               <div className="text-4xl font-bold text-[#b77e47]">
                 100%<span className="text-sm font-normal text-[#c9d1be]/70 ml-2">certified diamonds</span>
@@ -252,7 +252,7 @@ export default function IndiaPresence() {
             <div className="stats-card bg-[#2a3530]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#2e493c]/50 mb-6">
               <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Expert Team</h3>
               <p className="text-[#c9d1be]">
-                With a team of {totalEmployees} skilled professionals including gemologists, master craftsmen, and consultants across 12 states, Aurelia Jewelry delivers exceptional service.
+                With a team of {totalEmployees} skilled professionals including gemologists, master craftsmen, and consultants across 12 states, Elara Jewelry delivers exceptional service.
               </p>
               <div className="flex items-center gap-4">
                 <div className="flex items-center mb-2">
@@ -273,7 +273,7 @@ export default function IndiaPresence() {
             <div className="stats-card bg-gradient-to-r from-[#2e493c]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-2xl p-6 border border-[#b77e47]/30 opacity-0">
               <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Gemology Services</h3>
               <p className="text-[#c9d1be]">
-                Aurelia Jewelry offers expert gemological certification and consultation services, ensuring authenticity and quality for every piece of jewelry.
+                Elara Jewelry offers expert gemological certification and consultation services, ensuring authenticity and quality for every piece of jewelry.
               </p>
             </div>
           </div>

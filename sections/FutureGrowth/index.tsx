@@ -131,7 +131,7 @@ export default function FutureGrowth() {
           </span>
         </h2>
         <p className="text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
-          Aurelia Jewelry anticipates significant growth with expanding collections, new boutique openings, and increasing demand for fine jewelry across India.
+          Elara Jewelry anticipates significant growth with expanding collections, new boutique openings, and increasing demand for fine jewelry across India.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-12 items-center mb-20">
@@ -252,7 +252,7 @@ export default function FutureGrowth() {
             <div className="mt-8 bg-gradient-to-r from-[#2e493c]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-xl p-6 border border-[#b77e47]/30">
               <h4 className="text-xl font-bold mb-4 text-[#b77e47]">Market Opportunity</h4>
               <p className="text-[#c9d1be] mb-4">
-                India's jewelry market is one of the largest globally, with growing demand for fine jewelry, certified diamonds, and custom-designed pieces, presenting significant growth opportunities for Aurelia Jewelry.
+                India's jewelry market is one of the largest globally, with growing demand for fine jewelry, certified diamonds, and custom-designed pieces, presenting significant growth opportunities for Elara Jewelry.
               </p>
               <div className="flex items-center gap-4 mt-6">
                 <div className="flex-1 bg-[#2a3530]/70 h-2 rounded-full overflow-hidden">
@@ -267,7 +267,7 @@ export default function FutureGrowth() {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-6 text-[#b77e47]">Vision 2028</h3>
           <p className="text-xl text-[#c9d1be] mb-8">
-            Aurelia Jewelry aims to become one of India's leading fine jewelry houses, known for exceptional craftsmanship, certified diamonds, and timeless designs.
+            Elara Jewelry aims to become one of India's leading fine jewelry houses, known for exceptional craftsmanship, certified diamonds, and timeless designs.
           </p>
 
           <div className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-[#2e493c] to-[#b77e47] text-[#c9d1be] font-medium shadow-lg shadow-[#b77e47]/25">

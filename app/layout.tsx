@@ -18,7 +18,7 @@ const BasisGrotesquePro = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Aurelia Jewelry",
+  title: "Elara Jewelry",
   description: "A premier jewelry company specializing in exquisite fine jewelry, diamonds, and precious gemstones. Crafting timeless elegance for every occasion.",
 };
 

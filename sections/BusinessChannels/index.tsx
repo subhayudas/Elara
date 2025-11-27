@@ -167,7 +167,7 @@ export default function BusinessChannels() {
           </span>
         </h2>
         <p className="section-title text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto opacity-0">
-          Aurelia Jewelry operates through multiple channels, bringing exquisite fine jewelry and personalized service to customers across India.
+          Elara Jewelry operates through multiple channels, bringing exquisite fine jewelry and personalized service to customers across India.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8">
