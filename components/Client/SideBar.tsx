@@ -10,7 +10,6 @@ import Home from "@/public/ImageContainer/Skechers.jpg";
 import Destinations from "@/public/ImageContainer/Guess.jpg";
 import Wellness from "@/public/ImageContainer/newbalance.webp";
 import Innovation from "@/public/ImageContainer/Bugatti.jpg";
-import Nature from "@/public/ImageContainer/CalvinKlein.jpeg";
 import Community from "@/public/ImageContainer/Skechers.jpg";
 import TheStory from "@/public/ImageContainer/Guess.jpg";
 import NewDevelopments from "@/public/ImageContainer/CalvinKlein.jpeg";

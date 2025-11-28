@@ -32,7 +32,7 @@ export default function RetailExcellence() {
                 the brand embodies a dark, confident, magnetic
               </Fragment>,
               <Fragment key="d-2">
-                personality, jewellery that doesn't just
+                personality, jewellery that doesn&apos;t just
               </Fragment>,
               <Fragment key="d-3">
                 accessorize your look, but amplifies your
@@ -53,7 +53,7 @@ export default function RetailExcellence() {
                 the brand embodies a dark, confident, magnetic
               </Fragment>,
               <Fragment key="m-2">
-                personality, jewellery that doesn't just
+                personality, jewellery that doesn&apos;t just
               </Fragment>,
               <Fragment key="m-3">
                 accessorize your look, but amplifies your
@@ -70,7 +70,7 @@ export default function RetailExcellence() {
           <ResponsiveMaskTextVariant
             desktop={[
               <Fragment key="d2-0">
-                ELARA ISN'T FIGHTING THE COMPETITION.
+                ELARA ISN&apos;T FIGHTING THE COMPETITION.
               </Fragment>,
               <Fragment key="d2-1">
                 ELARA IS FIGHTING THE OLD WAY OF
@@ -79,7 +79,7 @@ export default function RetailExcellence() {
             ]}
             mobile={[
               <Fragment key="m2-0">
-                ELARA ISN'T FIGHTING THE COMPETITION.
+                ELARA ISN&apos;T FIGHTING THE COMPETITION.
               </Fragment>,
               <Fragment key="m2-1">
                 ELARA IS FIGHTING THE OLD WAY OF
