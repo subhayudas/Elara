@@ -46,11 +46,6 @@ export default function SideBar({ setOpenSideBar }: SideBarProps) {
     },
     {
       href: "#",
-      link: "Our Milestones",
-      src: Nature,
-    },
-    {
-      href: "#",
       link: "Our Advantage",
       src: Community,
     },

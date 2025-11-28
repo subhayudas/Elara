@@ -47,10 +47,6 @@ export default function NavBar() {
     },
     {
       href: "#",
-      children: "Our Milestones",
-    },
-    {
-      href: "#",
       children: "About Us",
     },
     {
