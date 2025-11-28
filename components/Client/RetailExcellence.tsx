@@ -18,7 +18,7 @@ export default function RetailExcellence() {
           },
         }}
       >
-        {"Craftsmanship Excellence • Premium Diamonds • Timeless Designs • Craftsmanship Excellence • "}
+        {"Freedom • Bold Design • Sensory Expression • Effortless Functionality • Freedom • Bold Design • Sensory Expression • Effortless Functionality • "}
       </ResponsiveMarquee>
 
       <div className="mt-18 flex flex-col gap-y-14 px-8-25 md:mt-26 md:grid md:grid-cols-3 md:grid-rows-[auto_auto] md:gap-y-24 md:px-16">
@@ -26,42 +26,43 @@ export default function RetailExcellence() {
           <ResponsiveMaskTextVariant
             desktop={[
               <Fragment key="d-0">
-                At Elara Jewelry, we believe in creating
+                Rooted in bold design and sensory expression,
               </Fragment>,
               <Fragment key="d-1">
-                exceptional jewelry experiences through our
+                the brand embodies a dark, confident, magnetic
               </Fragment>,
               <Fragment key="d-2">
-                premium boutique stores, offering exquisite
+                personality, jewellery that doesn't just
               </Fragment>,
               <Fragment key="d-3">
-                diamonds, precious gemstones, and timeless
+                accessorize your look, but amplifies your
               </Fragment>,
               <Fragment key="d-4">
-                designs. Our commitment to craftsmanship
+                presence. ELARA stands for freedom: freedom
               </Fragment>,
               <Fragment key="d-5">
-                excellence drives our continued growth.
+                from bags, from fading perfumes, from routine
               </Fragment>,
+              <Fragment key="d-6">and the freedom to live unrestrained.</Fragment>,
             ]}
             mobile={[
               <Fragment key="m-0">
-                At Elara Jewelry, we believe in creating
+                Rooted in bold design and sensory expression,
               </Fragment>,
               <Fragment key="m-1">
-                exceptional jewelry experiences through
+                the brand embodies a dark, confident, magnetic
               </Fragment>,
               <Fragment key="m-2">
-                our premium boutique stores, offering
+                personality, jewellery that doesn't just
               </Fragment>,
               <Fragment key="m-3">
-                exquisite diamonds, precious gemstones,
+                accessorize your look, but amplifies your
               </Fragment>,
               <Fragment key="m-4">
-                and timeless designs. Our commitment to
+                presence. ELARA stands for freedom: freedom
               </Fragment>,
-              <Fragment key="m-5">craftsmanship excellence drives</Fragment>,
-              <Fragment key="m-6">our continued growth.</Fragment>,
+              <Fragment key="m-5">from bags, from fading perfumes, from routine</Fragment>,
+              <Fragment key="m-6">and the freedom to live unrestrained.</Fragment>,
             ]}
             className="text-base [line-height:1.33] md:text-lg"
           />
@@ -69,34 +70,21 @@ export default function RetailExcellence() {
           <ResponsiveMaskTextVariant
             desktop={[
               <Fragment key="d2-0">
-                We envision becoming the leading jewelry
+                ELARA ISN'T FIGHTING THE COMPETITION.
               </Fragment>,
               <Fragment key="d2-1">
-                house in India, bringing exquisite fine
+                ELARA IS FIGHTING THE OLD WAY OF
               </Fragment>,
-              <Fragment key="d2-2">
-                jewelry and timeless designs to customers
-              </Fragment>,
-              <Fragment key="d2-3">
-                nationwide, creating memorable moments
-              </Fragment>,
-              <Fragment key="d2-4">and building lasting relationships.</Fragment>,
+              <Fragment key="d2-2">GETTING READY.</Fragment>,
             ]}
             mobile={[
               <Fragment key="m2-0">
-                We envision becoming the leading
+                ELARA ISN'T FIGHTING THE COMPETITION.
               </Fragment>,
               <Fragment key="m2-1">
-                jewelry house in India, bringing exquisite
+                ELARA IS FIGHTING THE OLD WAY OF
               </Fragment>,
-              <Fragment key="m2-2">
-                fine jewelry and timeless designs to
-              </Fragment>,
-              <Fragment key="m2-3">
-                customers nationwide, creating memorable
-              </Fragment>,
-              <Fragment key="m2-4">moments and building lasting</Fragment>,
-              <Fragment key="m2-5">relationships.</Fragment>,
+              <Fragment key="m2-2">GETTING READY.</Fragment>,
             ]}
             className="text-base [line-height:1.33] md:text-lg"
           />

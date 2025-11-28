@@ -7,24 +7,24 @@ import { animate, inView, stagger } from "motion";
 const businessChannels = [
   {
     id: "retail",
-    title: "Boutique Stores",
-    description: "25+ premium boutique stores across India featuring exquisite engagement rings, wedding collections, diamond jewelry, and custom-designed pieces. Each boutique offers personalized service and expert gemological consultation.",
+    title: "Four-Quadrant Experience",
+    description: "Our store is designed as a four-quadrant experience, each representing a distinct jewellery vibe and its matching sample scent. When customers walk in, they begin with a short digital quiz that identifies their personal vibe: Floral Feminine, Fruity Bright, Minimal, or Party, creating a personalised, immersive try-and-shop journey.",
     icon: "store",
     color: "from-[#5b1a1a] to-[#b77e47]",
     image: "/images/retail-store.jpg" // Placeholder image path
   },
   {
     id: "custom",
-    title: "Custom Design Services",
-    description: "Master craftsmen creating one-of-a-kind pieces tailored to your vision. From initial consultation to final creation, we bring your dream jewelry to life with precision and artistry.",
+    title: "Personal Vibe Quiz",
+    description: "A short digital quiz identifies your personal vibe: Floral Feminine, Fruity Bright, Minimal, or Party. This creates a personalised, immersive try-and-shop journey tailored to your preferences.",
     icon: "truck",
     color: "from-[#b77e47] to-[#4a1a1a]",
     image: "/images/distribution.jpg" // Placeholder image path
   },
   {
     id: "online",
-    title: "Online & E-commerce",
-    description: "Browse and purchase from our curated collections online. We offer secure transactions, detailed gemological certificates, and nationwide delivery. Also available on leading e-commerce platforms.",
+    title: "Immersive Try-and-Shop",
+    description: "Experience our fragrance-infused jewellery through an immersive journey. Each quadrant represents a distinct vibe with matching sample scents, allowing you to discover the perfect piece that amplifies your presence.",
     icon: "globe",
     color: "from-[#4a1a1a] to-[#5b1a1a]",
     image: "/images/institutional.jpg" // Placeholder image path
@@ -163,11 +163,11 @@ export default function BusinessChannels() {
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="section-title text-4xl md:text-10xl font-bold mb-4 text-center opacity-0">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
-            Business Channels
+            Store Experience
           </span>
         </h2>
         <p className="section-title text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto opacity-0">
-          Elara Jewelry operates through multiple channels, bringing exquisite fine jewelry and personalized service to customers across India.
+          Our store is designed as a four-quadrant experience, each representing a distinct jewellery vibe and its matching sample scent.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8">
@@ -223,37 +223,39 @@ export default function BusinessChannels() {
                     {activeChannelData.id === "retail" && (
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-3xl font-bold text-[#b77e47]">25+</div>
-                          <div className="text-xs text-[#d1bebe]/70">Boutique Stores</div>
+                          <div className="text-3xl font-bold text-[#b77e47]">4</div>
+                          <div className="text-xs text-[#d1bebe]/70">Quadrants</div>
                         </div>
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-3xl font-bold text-[#b77e47]">15+</div>
-                          <div className="text-xs text-[#d1bebe]/70">Cities</div>
+                          <div className="text-3xl font-bold text-[#b77e47]">4</div>
+                          <div className="text-xs text-[#d1bebe]/70">Vibes</div>
+                        </div>
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                          <div className="text-3xl font-bold text-[#b77e47]">28</div>
+                          <div className="text-xs text-[#d1bebe]/70">Days Lasting</div>
                         </div>
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-3xl font-bold text-[#b77e47]">100%</div>
-                          <div className="text-xs text-[#d1bebe]/70">Certified Diamonds</div>
-                        </div>
-                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-3xl font-bold text-[#b77e47]">24/7</div>
-                          <div className="text-xs text-[#d1bebe]/70">Customer Service</div>
+                          <div className="text-xs text-[#d1bebe]/70">Jewellery Safe</div>
                         </div>
                       </div>
                     )}
 
                     {activeChannelData.id === "custom" && (
-                      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-3xl font-bold text-[#b77e47]">1000+</div>
-                          <div className="text-xs text-[#d1bebe]/70">Custom Designs</div>
+                          <div className="text-2xl font-bold text-[#b77e47]">Floral</div>
+                          <div className="text-xs text-[#d1bebe]/70">Feminine</div>
                         </div>
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-3xl font-bold text-[#b77e47]">15+</div>
-                          <div className="text-xs text-[#d1bebe]/70">Master Craftsmen</div>
+                          <div className="text-2xl font-bold text-[#b77e47]">Fruity</div>
+                          <div className="text-xs text-[#d1bebe]/70">Bright</div>
                         </div>
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-3xl font-bold text-[#b77e47]">100%</div>
-                          <div className="text-xs text-[#d1bebe]/70">Satisfaction</div>
+                          <div className="text-2xl font-bold text-[#b77e47]">Minimal</div>
+                        </div>
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                          <div className="text-2xl font-bold text-[#b77e47]">Party</div>
                         </div>
                       </div>
                     )}
@@ -261,20 +263,20 @@ export default function BusinessChannels() {
                     {activeChannelData.id === "online" && (
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-2xl font-bold text-[#b77e47]">Online</div>
-                          <div className="text-xs text-[#d1bebe]/70">Store</div>
+                          <div className="text-2xl font-bold text-[#b77e47]">Try</div>
+                          <div className="text-xs text-[#d1bebe]/70">Sample Scents</div>
                         </div>
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-2xl font-bold text-[#b77e47]">Amazon</div>
-                          <div className="text-xs text-[#d1bebe]/70">E-commerce</div>
+                          <div className="text-2xl font-bold text-[#b77e47]">Shop</div>
+                          <div className="text-xs text-[#d1bebe]/70">Your Vibe</div>
                         </div>
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-2xl font-bold text-[#b77e47]">Flipkart</div>
-                          <div className="text-xs text-[#d1bebe]/70">E-commerce</div>
+                          <div className="text-2xl font-bold text-[#b77e47]">Wear</div>
+                          <div className="text-xs text-[#d1bebe]/70">Your Fragrance</div>
                         </div>
                         <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                          <div className="text-2xl font-bold text-[#b77e47]">Pan India</div>
-                          <div className="text-xs text-[#d1bebe]/70">Delivery</div>
+                          <div className="text-2xl font-bold text-[#b77e47]">Refill</div>
+                          <div className="text-xs text-[#d1bebe]/70">Endless</div>
                         </div>
                       </div>
                     )}

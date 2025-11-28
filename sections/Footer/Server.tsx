@@ -14,39 +14,39 @@ export default function Footer() {
     { href: "", link: "Home" },
     {
       href: "#",
-      link: "Collections",
+      link: "ELARA HOOPS",
     },
     {
       href: "#",
-      link: "Engagement Rings",
+      link: "ELARA RINGS",
     },
     {
       href: "#",
-      link: "Wedding Jewelry",
+      link: "ELARA CHARM BRACELETS",
     },
     {
       href: "#",
-      link: "Custom Designs",
+      link: "ELARA PENDANTS",
     },
     {
       href: "#",
-      link: "Our Craftsmanship",
+      link: "Store Experience",
     },
     {
       href: "#",
-      link: "About Us",
+      link: "Target Consumers",
     },
     {
       href: "#",
-      link: "Boutique Locations",
+      link: "Brand Positioning",
     },
     {
       href: "#",
-      link: "Gemology Services",
+      link: "Pop Up Party",
     },
     {
       href: "#",
-      link: "Careers",
+      link: "Celebrity Endorsement",
     },
   ];
 
@@ -82,7 +82,7 @@ export default function Footer() {
         <StayConnected className="justify-end gap-y-6 text-base [line-height:1] max-md:mt-12 md:col-start-2 md:gap-y-12 [&_div]:gap-x-8 md:[&_div]:gap-x-10 [&_path]:[fill:#d1bebe]" />
       </div>
       <div className="flex flex-col gap-y-4 bg-[#4a1a1a] px-3-75 py-7-5 text-xs text-[#d1bebe] md:flex-row md:justify-between md:pb-10 md:text-base [&_.animated-underline]:h-px [&_.animated-underline]:bg-[#d1bebe]">
-        <div className="md:flex-1">© 2024 Elara Jewelry. All Rights Reserved</div>
+        <div className="md:flex-1">© 2024 ELARA. All Rights Reserved</div>
         <Link href="#">
           <DashedLink className="w-fit cursor-pointer">
             Policies and Terms
@@ -90,7 +90,7 @@ export default function Footer() {
         </Link>
         <div className="flex flex-1 justify-end">
           <DashedLink className="w-fit cursor-default">
-            Elara Jewelry
+            ELARA
           </DashedLink>
         </div>
       </div>

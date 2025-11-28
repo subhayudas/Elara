@@ -134,11 +134,11 @@ export default function IndiaPresence() {
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="section-title text-4xl md:text-5xl font-bold mb-4 text-center">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
-            Our Presence Across India
+            Target Markets
           </span>
         </h2>
         <p className="section-title text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">
-          Elara Jewelry has established a strong presence across India with {totalStores} boutique stores and {totalEmployees} employees spanning multiple states.
+          ELARA targets key markets in Delhi, Mumbai, and Bangalore, focusing on nightlife enthusiasts aged 18-30 who seek jewellery-safe, long-lasting fragrance.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8 items-center">
@@ -240,40 +240,40 @@ export default function IndiaPresence() {
 
           <div className="w-full lg:w-1/3 space-y-6">
             <div className="stats-card bg-[#4a1a1a]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#5b1a1a]/50 mb-6">
-                <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Boutique Presence</h3>
+                <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Key Markets</h3>
                 <p className="text-[#d1bebe]">
-                Elara Jewelry operates {totalStores} premium boutique stores featuring exquisite engagement rings, wedding collections, and custom-designed jewelry across India.
+                ELARA focuses on Delhi, Mumbai, and Bangalore - prime locations for nightlife enthusiasts who value jewellery-safe, long-lasting fragrance that lasts up to 28 days.
               </p>
               <div className="text-4xl font-bold text-[#b77e47]">
-                100%<span className="text-sm font-normal text-[#d1bebe]/70 ml-2">certified diamonds</span>
+                28<span className="text-sm font-normal text-[#d1bebe]/70 ml-2">days lasting fragrance</span>
               </div>
             </div>
 
             <div className="stats-card bg-[#4a1a1a]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#5b1a1a]/50 mb-6">
-              <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Expert Team</h3>
+              <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Target Consumer</h3>
               <p className="text-[#d1bebe]">
-                With a team of {totalEmployees} skilled professionals including gemologists, master craftsmen, and consultants across 12 states, Elara Jewelry delivers exceptional service.
+                AANYA: THE NIGHTLIFE ENTHUSIAST. Age 18-30, located in Delhi, Mumbai, Bangalore. Students + Young Professionals. Middle to Upper-Middle Class.
               </p>
               <div className="flex items-center gap-4">
                 <div className="flex items-center mb-2">
                   <div className="w-3 h-3 bg-[#b77e47] rounded-full mr-2"></div>
-                  <span className="text-[#d1bebe]">Boutique Stores</span>
+                  <span className="text-[#d1bebe]">Nightlife Lover</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-[#d1bebe] rounded-full mr-2"></div>
-                  <span className="text-[#d1bebe]">Team Distribution</span>
+                  <span className="text-[#d1bebe]">Aesthetic-First</span>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#b77e47]">15+</div>
-                  <div className="text-xs text-[#d1bebe]/70">Master Craftsmen</div>
+                  <div className="text-3xl font-bold text-[#b77e47]">28</div>
+                  <div className="text-xs text-[#d1bebe]/70">Days Lasting</div>
                 </div>
               </div>
             </div>
 
             <div className="stats-card bg-gradient-to-r from-[#5b1a1a]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-2xl p-6 border border-[#b77e47]/30 opacity-0">
-              <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Gemology Services</h3>
+              <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Brand Positioning</h3>
               <p className="text-[#d1bebe]">
-                Elara Jewelry offers expert gemological certification and consultation services, ensuring authenticity and quality for every piece of jewelry.
+                ELARA isn't fighting the competition. ELARA is fighting the old way of getting ready. We merge long-lasting fragrance + premium jewellery into one functional, refillable product.
               </p>
             </div>
           </div>

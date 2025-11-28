@@ -10,17 +10,17 @@ export default function WellnessSanctuary() {
   const textLines = {
     desktop: [
       <Fragment key="desktop-1">
-        <span>Engagement Rings,</span> Wedding
+        <span>ELARA HOOPS,</span> ELARA RINGS,
       </Fragment>,
-      <Fragment key="desktop-2">Collections, and Custom</Fragment>,
-      <Fragment key="desktop-3">Designs across India</Fragment>,
+      <Fragment key="desktop-2">ELARA CHARM BRACELETS,</Fragment>,
+      <Fragment key="desktop-3">and ELARA PENDANTS</Fragment>,
     ],
     mobile: [
       <Fragment key="mobile-1">
-        <span>Engagement Rings,</span> Wedding
+        <span>ELARA HOOPS,</span> ELARA RINGS,
       </Fragment>,
-      <Fragment key="mobile-2">Collections, and Custom Designs</Fragment>,
-      <Fragment key="mobile-3">across India</Fragment>,
+      <Fragment key="mobile-2">ELARA CHARM BRACELETS,</Fragment>,
+      <Fragment key="mobile-3">and ELARA PENDANTS</Fragment>,
     ],
   };
 
@@ -35,23 +35,23 @@ export default function WellnessSanctuary() {
       </ResponsiveImage>
       <div className="flex flex-col justify-center px-3-75 py-40 md:py-0">
         <div className="flex flex-col gap-12 md:ml-36 md:w-fit md:gap-16">
-          <SectionTitle>Our Collections</SectionTitle>
+          <SectionTitle>Product Range</SectionTitle>
           <ResponsiveMaskText
             {...textLines}
             className="text-24 [line-height:1] md:text-40"
           />
           <MaskText
             lines={[
-              <>With 25+ boutique stores across India, featuring</>,
-              <>exquisite engagement rings, wedding collections,</>,
-              <>diamond jewelry, and custom-designed pieces.</>,
-              <>Each piece is crafted with precision and passion,</>,
-              <>bringing timeless elegance to customers nationwide.</>,
+              <>Jewellery that doesn't just accessorize your look,</>,
+              <>but amplifies your presence. Long-lasting fragrance</>,
+              <>designed for your night out. One piece, multiple</>,
+              <>refills, endless fragrance. Wear once and it lasts</>,
+              <>up to 28 days. Perfume that stays. Jewellery that lasts.</>,
             ]}
             className="text-lg [line-height:1.3] font-normal"
           />
           <StyledLink href="#">
-            Explore Our Collections
+            Explore Product Range
           </StyledLink>
         </div>
       </div>

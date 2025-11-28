@@ -9,41 +9,25 @@ export default function CompetitiveAdvantage() {
 
   const textLines = {
     mobile: [
-      <Fragment key="m-1">Our competitive edge</Fragment>,
-      <Fragment key="m-2">
-        comes from <span>exceptional</span>
-      </Fragment>,
-      <Fragment key="m-3">
-        <span>craftsmanship</span>, master artisans,
-      </Fragment>,
-      <Fragment key="m-4">and premium boutique locations</Fragment>,
-      <Fragment key="m-5">across India.</Fragment>,
+      <Fragment key="m-1">PRODUCT RANGE</Fragment>,
     ],
     desktop: [
-      <Fragment key="d-1">Our competitive edge comes</Fragment>,
-      <Fragment key="d-2">
-        from <span>exceptional craftsmanship</span>,
-      </Fragment>,
-      <Fragment key="d-3">
-        master artisans, and premium
-      </Fragment>,
-      <Fragment key="d-4">boutique locations across India.</Fragment>,
+      <Fragment key="d-1">PRODUCT RANGE</Fragment>,
     ],
   };
 
   const advantages = [
-    "Certified diamonds and gemstones",
-    "Master craftsmanship & attention to detail",
-    "Custom design services",
-    "Experienced gemologists and artisans",
-    "Premium boutique locations across India"
+    "ELARA HOOPS",
+    "ELARA RINGS",
+    "ELARA CHARM BRACELETS",
+    "ELARA PENDANTS"
   ];
 
   return (
     <div className="flex flex-col bg-[#d1c4c4] text-[#4a1a1a] md:grid md:grid-cols-2">
       <div className="flex flex-col justify-center px-3-75 py-40 md:py-0">
         <div className="flex flex-col gap-12 md:ml-36 md:w-fit md:gap-16">
-          <SectionTitle>Our Advantage</SectionTitle>
+          <SectionTitle>Product Range</SectionTitle>
           <ResponsiveMaskText
             {...textLines}
             className="text-24 [line-height:1] md:text-40"
@@ -74,7 +58,7 @@ export default function CompetitiveAdvantage() {
                 />
               </div>
               <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-                <p className="text-center text-xl font-semibold text-white">Engagement Rings</p>
+                <p className="text-center text-xl font-semibold text-white">ELARA HOOPS</p>
               </div>
             </div>
             <div className="relative flex items-center justify-center overflow-hidden rounded-lg">
@@ -88,7 +72,7 @@ export default function CompetitiveAdvantage() {
                 />
               </div>
               <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-                <p className="text-center text-xl font-semibold text-white">Wedding Collections</p>
+                <p className="text-center text-xl font-semibold text-white">ELARA RINGS</p>
               </div>
             </div>
             <div className="relative flex items-center justify-center overflow-hidden rounded-lg">
@@ -102,7 +86,7 @@ export default function CompetitiveAdvantage() {
                 />
               </div>
               <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-                <p className="text-center text-xl font-semibold text-white">Diamond Jewelry</p>
+                <p className="text-center text-xl font-semibold text-white">ELARA CHARM BRACELETS</p>
               </div>
             </div>
             <div className="relative flex items-center justify-center overflow-hidden rounded-lg">
@@ -116,7 +100,7 @@ export default function CompetitiveAdvantage() {
                 />
               </div>
               <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-                <p className="text-center text-xl font-semibold text-white">Custom Designs</p>
+                <p className="text-center text-xl font-semibold text-white">ELARA PENDANTS</p>
               </div>
             </div>
           </div>

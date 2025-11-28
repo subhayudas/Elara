@@ -22,23 +22,23 @@ const growthData = {
 // Growth initiatives
 const initiatives = [
   {
-    title: "Collection Expansion",
-    description: "Introducing new jewelry collections, limited edition pieces, and expanding our range of engagement rings and wedding jewelry.",
+    title: "Effortless Functionality",
+    description: "We eliminate reapplication entirely. Wear once and it lasts up to 28 days. One piece, multiple refills, endless fragrance.",
     icon: "brand"
   },
   {
-    title: "Geographic Expansion",
-    description: "Opening new boutique stores in key cities across India to bring our exquisite jewelry closer to customers nationwide.",
+    title: "Self-Expression & Choice",
+    description: "Four distinct vibes: Floral Feminine, Fruity Bright, Minimal, or Party. Personalised, immersive try-and-shop journey.",
     icon: "map"
   },
   {
-    title: "Boutique Network",
-    description: "Expanding our boutique footprint in premium locations to enhance physical presence and provide personalized service.",
+    title: "Bold Modern Identity",
+    description: "Rooted in bold design and sensory expression, the brand embodies a dark, confident, magnetic personality.",
     icon: "store"
   },
   {
-    title: "Digital Innovation",
-    description: "Investing in virtual try-on technology, online consultations, and e-commerce platforms to reach customers digitally.",
+    title: "Freedom",
+    description: "ELARA stands for freedom: freedom from bags, from fading perfumes, from routine and the freedom to live unrestrained.",
     icon: "digital"
   }
 ];
@@ -127,11 +127,11 @@ export default function FutureGrowth() {
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
-            Future Growth Projections
+            Brand Codes
           </span>
         </h2>
         <p className="text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">
-          Elara Jewelry anticipates significant growth with expanding collections, new boutique openings, and increasing demand for fine jewelry across India.
+          We asked the "dumb" questions no one in jewellery or perfume industry ever did. Why does fragrance stay in bottles, jewellery stay decorative, and perfume need reapplying?
         </p>
 
         <div className="flex flex-col lg:flex-row gap-12 items-center mb-20">
@@ -250,28 +250,28 @@ export default function FutureGrowth() {
             </div>
 
             <div className="mt-8 bg-gradient-to-r from-[#5b1a1a]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-xl p-6 border border-[#b77e47]/30">
-              <h4 className="text-xl font-bold mb-4 text-[#b77e47]">Market Opportunity</h4>
+              <h4 className="text-xl font-bold mb-4 text-[#b77e47]">Competitive Advantage</h4>
               <p className="text-[#d1bebe] mb-4">
-                India's jewelry market is one of the largest globally, with growing demand for fine jewelry, certified diamonds, and custom-designed pieces, presenting significant growth opportunities for Elara Jewelry.
+                While other perfume brands fade in 12 hours and less, Elara's Jewellery scent lasts for up to 28 days. We make fragrance wearable: unlike other jewellery brands that focus solely on appearance, our scented jewellery bead releases aroma continuously.
               </p>
               <div className="flex items-center gap-4 mt-6">
                 <div className="flex-1 bg-[#4a1a1a]/70 h-2 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] rounded-full" style={{ width: '15%' }}></div>
+                  <div className="h-full bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] rounded-full" style={{ width: '100%' }}></div>
                 </div>
-                <div className="text-[#b77e47] font-bold">15% CAGR</div>
+                <div className="text-[#b77e47] font-bold">28 Days</div>
               </div>
             </div>
           </div>
         </div>
 
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-6 text-[#b77e47]">Vision 2028</h3>
+          <h3 className="text-2xl font-bold mb-6 text-[#b77e47]">Wear Your Fragrance</h3>
           <p className="text-xl text-[#d1bebe] mb-8">
-            Elara Jewelry aims to become one of India's leading fine jewelry houses, known for exceptional craftsmanship, certified diamonds, and timeless designs.
+            Perfume that stays. Jewellery that lasts. Fragrance that you wear. Don't listen to brand ambassadors. Don't trust fancy bottles. Trust what's proven to last.
           </p>
 
           <div className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] text-[#d1bebe] font-medium shadow-lg shadow-[#b77e47]/25">
-            Discover Timeless Elegance
+            Wear Moments. Wear Your Fragrance.
           </div>
         </div>
       </div>

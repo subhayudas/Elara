@@ -25,7 +25,7 @@ export default function HeroServer() {
             className="text-white"
           >
             {
-              "Elegance • Craftsmanship • Luxury • Timeless Beauty • Elegance • Craftsmanship • Luxury • Timeless Beauty • "
+              "Wear Your Fragrance • Freedom • Bold Design • Sensory Expression • Wear Your Fragrance • Freedom • Bold Design • Sensory Expression • "
             }
           </ResponsiveMarquee>,
         ]}
@@ -55,8 +55,8 @@ export default function HeroServer() {
           }}
           className="md:[line-height:1.2]"
           lines={[
-            <>Crafting exquisite jewelry</>,
-            <>with timeless elegance and luxury</>,
+            <>Wear your fragrance</>,
+            <>Jewellery that amplifies your presence</>,
           ]}
         />
         <MaskText

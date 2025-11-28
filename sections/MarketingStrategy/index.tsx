@@ -6,51 +6,51 @@ import { inView } from "motion";
 // Marketing strategy data
 const strategies = [
   {
-    id: "growth",
-    title: "Collection Expansion",
-    description: "Expanding our jewelry collections with new designs, introducing limited edition pieces, and opening new boutique locations across India.",
+    id: "demographic",
+    title: "Target Demographic",
+    description: "Age: 18-30. Location: Delhi, Mumbai, Bangalore. Status: Students + Young Professionals. Income: Middle to Upper-Middle Class.",
     icon: "chart-line"
   },
   {
-    id: "alliances",
-    title: "Strategic Partnerships",
-    description: "Forming partnerships with diamond suppliers, gemstone dealers, and luxury retailers to enhance our offerings and reach.",
+    id: "psychographic",
+    title: "Psychographic",
+    description: "Nightlife lover, Aesthetic-first, Beauty & scent conscious, Convenience & longevity seeker.",
     icon: "handshake"
   },
   {
-    id: "digital",
-    title: "Digital Showcase",
-    description: "Leveraging digital platforms to showcase our exquisite collections, virtual try-on experiences, and online consultations.",
+    id: "motivation",
+    title: "Motivation",
+    description: "All-night fragrance, Confidence boost, Party-look elevating, No-carry scent.",
     icon: "globe"
   },
   {
-    id: "social",
-    title: "Social Media Presence",
-    description: "Creating compelling content showcasing our craftsmanship, behind-the-scenes stories, and customer testimonials across social platforms.",
+    id: "behaviour",
+    title: "Behaviour",
+    description: "Social & club regular, Trendy shopper, Minimal jewellery wearer, Frequent re-applier.",
     icon: "share"
   },
   {
-    id: "influencer",
-    title: "Celebrity Collaborations",
-    description: "Partnering with celebrities and influencers to showcase our jewelry collections and reach new customer segments.",
+    id: "endorsement",
+    title: "Celebrity Endorsement",
+    description: "JANHVI KAPOOR - Fit with Brand Personality, aligns with all four moods, reach to Gen Z and Millennial audience.",
     icon: "users"
   },
   {
-    id: "ecommerce",
-    title: "E-commerce Platform",
-    description: "Seamless online shopping experience with detailed product views, gemological certificates, and nationwide delivery.",
+    id: "solution",
+    title: "Our Solution",
+    description: "A jewellery-safe, long-lasting fragrance designed for her night out. Wear once and it lasts up to 28 days.",
     icon: "shopping-cart"
   }
 ];
 
 // Retail marketing strategies
 const retailStrategies = [
-  "Showcasing craftsmanship excellence",
-  "Personalized customer consultations",
-  "Multi-channel presence",
-  "Luxury boutique experience",
-  "Loyalty and rewards programs",
-  "Customer testimonials and reviews"
+  "8:30 PM – Gets ready with minimal jewellery",
+  "8:45 PM – Perfume touches jewellery and tarnishes it",
+  "9:00 PM – Wants all-night fragrance but hates carrying bottle",
+  "10:30 PM – At the club, wants seamless look in every photo",
+  "1:00 AM – Wants longevity + convenience without damaging jewellery",
+  "Our Solution – Jewellery-safe, long-lasting fragrance"
 ];
 
 export default function MarketingStrategy() {
@@ -138,11 +138,11 @@ export default function MarketingStrategy() {
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
-            Marketing Strategy
+            Target Consumers
           </span>
         </h2>
         <p className="text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">
-          Elara Jewelry aims to expand its presence through a multi-fold strategy, leveraging digital platforms and showcasing exquisite craftsmanship.
+          AANYA: THE NIGHTLIFE ENTHUSIAST. Age 18-30, located in Delhi, Mumbai, Bangalore. Students + Young Professionals. Middle to Upper-Middle Class.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8 items-start">
@@ -187,7 +187,7 @@ export default function MarketingStrategy() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                   <div className="bg-gradient-to-r from-[#5b1a1a]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-2xl p-6 border border-[#b77e47]/30">
-                    <h3 className="text-xl font-bold mb-4 text-[#b77e47]">Retail Store Marketing</h3>
+                    <h3 className="text-xl font-bold mb-4 text-[#b77e47]">Aanya's Journey</h3>
                     <ul className="space-y-3">
                       {retailStrategies.map((item, index) => (
                         <li key={index} className="flex items-start gap-3">
@@ -203,21 +203,21 @@ export default function MarketingStrategy() {
                   </div>
 
                   <div className="bg-[#4a1a1a]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#5b1a1a]/50">
-                    <h3 className="text-xl font-bold mb-4 text-[#b77e47]">Market Context</h3>
+                    <h3 className="text-xl font-bold mb-4 text-[#b77e47]">Brand Positioning</h3>
                     <p className="text-[#d1bebe] mb-4">
-                      India's jewelry market is one of the largest in the world, with growing demand for fine jewelry, diamonds, and custom-designed pieces.
+                      We asked the "dumb" questions no one in jewellery or perfume industry ever did. Why does fragrance stay in bottles, jewellery stay decorative, and perfume need reapplying?
                     </p>
                     <p className="text-[#d1bebe]">
-                      The market is projected to grow significantly, driven by increasing disposable income, wedding season demand, and preference for certified diamonds.
+                      We work for effort-free fragrance + jewellery seekers. Behaviour-driven, not category-driven. While other perfume brands fade in 12 hours, Elara's Jewellery scent lasts for up to 28 days.
                     </p>
 
                     <div className="mt-6 pt-6 border-t border-[#5b1a1a]/50">
                       <div className="flex items-center justify-between mb-2">
-                        <span className="text-sm text-[#d1bebe]/70">Market Growth</span>
-                        <span className="text-sm text-[#b77e47]">15% CAGR</span>
+                        <span className="text-sm text-[#d1bebe]/70">Fragrance Duration</span>
+                        <span className="text-sm text-[#b77e47]">28 Days</span>
                       </div>
                       <div className="w-full bg-[#5b1a1a]/50 rounded-full h-2">
-                        <div className="bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] h-2 rounded-full" style={{ width: '15%' }}></div>
+                        <div className="bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] h-2 rounded-full" style={{ width: '100%' }}></div>
                       </div>
                     </div>
                   </div>
@@ -225,23 +225,23 @@ export default function MarketingStrategy() {
               </div>
 
               <div className="mt-12">
-                <h3 className="text-xl font-bold mb-6 text-center text-[#b77e47]">Boutique Locations</h3>
+                <h3 className="text-xl font-bold mb-6 text-center text-[#b77e47]">Key Locations</h3>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                    <div className="text-lg font-bold text-[#d1bebe]">Delhi Boutique</div>
-                    <div className="text-xs text-[#d1bebe]/70">Engagement Rings</div>
+                    <div className="text-lg font-bold text-[#d1bebe]">Delhi</div>
+                    <div className="text-xs text-[#d1bebe]/70">Target Market</div>
                   </div>
                   <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                    <div className="text-lg font-bold text-[#d1bebe]">Mumbai Boutique</div>
-                    <div className="text-xs text-[#d1bebe]/70">Wedding Collections</div>
+                    <div className="text-lg font-bold text-[#d1bebe]">Mumbai</div>
+                    <div className="text-xs text-[#d1bebe]/70">Target Market</div>
                   </div>
                   <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                    <div className="text-lg font-bold text-[#d1bebe]">Bangalore Boutique</div>
-                    <div className="text-xs text-[#d1bebe]/70">Custom Designs</div>
+                    <div className="text-lg font-bold text-[#d1bebe]">Bangalore</div>
+                    <div className="text-xs text-[#d1bebe]/70">Target Market</div>
                   </div>
                   <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                    <div className="text-lg font-bold text-[#d1bebe]">Chennai Boutique</div>
-                    <div className="text-xs text-[#d1bebe]/70">Diamond Jewelry</div>
+                    <div className="text-lg font-bold text-[#d1bebe]">Pop Up Party</div>
+                    <div className="text-xs text-[#d1bebe]/70">Exclusive Launch</div>
                   </div>
                 </div>
               </div>
