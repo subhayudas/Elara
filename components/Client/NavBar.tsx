@@ -92,7 +92,7 @@ export default function NavBar() {
           },
         }}
       >
-        <div className={`${state ? 'bg-[#30493D] px-4 py-2 rounded-md' : ''} transition-all duration-300`}>
+        <div className={`${state ? 'bg-[#5b1a1a] px-4 py-2 rounded-md' : ''} transition-all duration-300`}>
           <LogoFull
             className="origin-left text-white"
             variants={{
@@ -108,11 +108,11 @@ export default function NavBar() {
                 className={cn(
                   "text-base font-normal",
                   state
-                    ? "[&>.animated-underline]:bg-[#2b3530]"
+                    ? "[&>.animated-underline]:bg-[#4a1a1a]"
                     : "[&>.animated-underline]:bg-white",
                 )}
                 variants={{
-                  animate: { color: "#2b3530" },
+                  animate: { color: "#4a1a1a" },
                   initial: { color: "#ffffff" },
                 }}
               >
@@ -126,13 +126,13 @@ export default function NavBar() {
             className={cn(
               "relative hidden w-fit cursor-pointer items-center gap-4 px-5 py-4.5 text-base [line-height:0.8] font-normal md:flex",
               state
-                ? "text-[#2b3530] [&_svg]:[stroke:#2b3530]"
+                ? "text-[#4a1a1a] [&_svg]:[stroke:#4a1a1a]"
                 : "text-white [&_svg]:[stroke:white]",
             )}
           >
             Franchise Enquiry
             <NavigateSVG
-              style={{ fill: state ? "#ffffff" : "#2b3530" }}
+              style={{ fill: state ? "#ffffff" : "#4a1a1a" }}
               className="mr-2.5 size-2.5"
             />
           </BorderedButton>
@@ -143,7 +143,7 @@ export default function NavBar() {
             className="cursor-pointer p-2"
           >
             <AnimatedBurger
-              className={cn(state ? "[stroke:#2b3530]" : "[stroke:white]")}
+              className={cn(state ? "[stroke:#4a1a1a]" : "[stroke:white]")}
             />
           </motion.button>
         </div>

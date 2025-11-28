@@ -31,7 +31,7 @@ export default function FinancialPerformance() {
   };
 
   return (
-    <div className="bg-[#2B3530] px-3-75 py-40 text-[#D1CCBF] md:px-16 md:py-50">
+    <div className="bg-[#4a1a1a] px-3-75 py-40 text-[#d1bebe] md:px-16 md:py-50">
       <div className="flex flex-col gap-12 md:gap-20">
         <SectionTitle>Financial Performance</SectionTitle>
 

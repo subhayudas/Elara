@@ -123,34 +123,34 @@ export default function IndiaPresence() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 bg-gradient-to-br from-[#2a3530] to-[#2e493c] text-[#c9d1be] overflow-hidden"
+      className="relative py-24 bg-gradient-to-br from-[#4a1a1a] to-[#5b1a1a] text-[#d1bebe] overflow-hidden"
     >
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('/images/circuit-pattern.svg')] bg-repeat opacity-5"></div>
         <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#b77e47]/10 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#c9d1be]/10 blur-3xl rounded-full"></div>
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#d1bebe]/10 blur-3xl rounded-full"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="section-title text-4xl md:text-5xl font-bold mb-4 text-center">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c9d1be] to-[#b77e47]">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
             Our Presence Across India
           </span>
         </h2>
-        <p className="section-title text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
+        <p className="section-title text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">
           Elara Jewelry has established a strong presence across India with {totalStores} boutique stores and {totalEmployees} employees spanning multiple states.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8 items-center">
           <div className="w-full lg:w-2/3">
-            <div className="map-container relative bg-[#2e493c]/20 backdrop-blur-sm rounded-3xl p-6 border border-[#b77e47]/20 opacity-0">
+            <div className="map-container relative bg-[#5b1a1a]/20 backdrop-blur-sm rounded-3xl p-6 border border-[#b77e47]/20 opacity-0">
               <div className="flex justify-end mb-4 space-x-4">
                 <button
                   onClick={() => setShowStores(true)}
                   className={`px-4 py-2 rounded-full text-xs font-medium transition-all duration-300
                     ${showStores
-                      ? "bg-gradient-to-r from-[#2e493c] to-[#b77e47] text-[#c9d1be]"
-                      : "bg-[#2a3530] text-[#c9d1be]/80 hover:bg-[#2a3530]/70"
+                      ? "bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] text-[#d1bebe]"
+                      : "bg-[#4a1a1a] text-[#d1bebe]/80 hover:bg-[#4a1a1a]/70"
                     }`}
                 >
                   Boutique Stores
@@ -159,8 +159,8 @@ export default function IndiaPresence() {
                   onClick={() => setShowStores(false)}
                   className={`px-4 py-2 rounded-full text-xs font-medium transition-all duration-300
                     ${!showStores
-                      ? "bg-gradient-to-r from-[#2e493c] to-[#b77e47] text-[#c9d1be]"
-                      : "bg-[#2a3530] text-[#c9d1be]/80 hover:bg-[#2a3530]/70"
+                      ? "bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] text-[#d1bebe]"
+                      : "bg-[#4a1a1a] text-[#d1bebe]/80 hover:bg-[#4a1a1a]/70"
                     }`}
                 >
                   Employees
@@ -205,7 +205,7 @@ export default function IndiaPresence() {
                       key={state.state}
                       data-state={state.state}
                       className={`state-marker absolute rounded-full cursor-pointer transition-all duration-300 opacity-0
-                        ${showStores ? 'bg-[#b77e47]' : 'bg-[#c9d1be]'}
+                        ${showStores ? 'bg-[#b77e47]' : 'bg-[#d1bebe]'}
                         ${isActive || isHovered ? 'z-10' : 'z-0'}
                       `}
                       style={{
@@ -215,7 +215,7 @@ export default function IndiaPresence() {
                         height: `${size}px`,
                         transform: 'translate(-50%, -50%)',
                         boxShadow: isActive || isHovered
-                          ? `0 0 20px ${showStores ? 'rgba(183, 126, 71, 0.6)' : 'rgba(201, 209, 190, 0.6)'}`
+                          ? `0 0 20px ${showStores ? 'rgba(183, 126, 71, 0.6)' : 'rgba(209, 190, 190, 0.6)'}`
                           : 'none'
                       }}
                       onClick={() => handleStateClick(state.state)}
@@ -227,7 +227,7 @@ export default function IndiaPresence() {
                       </div>
 
                       {(isActive || isHovered) && (
-                        <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-full bg-[#2e493c] text-white text-xs py-1 px-2 rounded whitespace-nowrap">
+                        <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-full bg-[#5b1a1a] text-white text-xs py-1 px-2 rounded whitespace-nowrap">
                           {state.state}
                         </div>
                       )}
@@ -239,40 +239,40 @@ export default function IndiaPresence() {
           </div>
 
           <div className="w-full lg:w-1/3 space-y-6">
-            <div className="stats-card bg-[#2a3530]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#2e493c]/50 mb-6">
+            <div className="stats-card bg-[#4a1a1a]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#5b1a1a]/50 mb-6">
                 <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Boutique Presence</h3>
-                <p className="text-[#c9d1be]">
+                <p className="text-[#d1bebe]">
                 Elara Jewelry operates {totalStores} premium boutique stores featuring exquisite engagement rings, wedding collections, and custom-designed jewelry across India.
               </p>
               <div className="text-4xl font-bold text-[#b77e47]">
-                100%<span className="text-sm font-normal text-[#c9d1be]/70 ml-2">certified diamonds</span>
+                100%<span className="text-sm font-normal text-[#d1bebe]/70 ml-2">certified diamonds</span>
               </div>
             </div>
 
-            <div className="stats-card bg-[#2a3530]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#2e493c]/50 mb-6">
+            <div className="stats-card bg-[#4a1a1a]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#5b1a1a]/50 mb-6">
               <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Expert Team</h3>
-              <p className="text-[#c9d1be]">
+              <p className="text-[#d1bebe]">
                 With a team of {totalEmployees} skilled professionals including gemologists, master craftsmen, and consultants across 12 states, Elara Jewelry delivers exceptional service.
               </p>
               <div className="flex items-center gap-4">
                 <div className="flex items-center mb-2">
                   <div className="w-3 h-3 bg-[#b77e47] rounded-full mr-2"></div>
-                  <span className="text-[#c9d1be]">Boutique Stores</span>
+                  <span className="text-[#d1bebe]">Boutique Stores</span>
                 </div>
                 <div className="flex items-center">
-                  <div className="w-3 h-3 bg-[#c9d1be] rounded-full mr-2"></div>
-                  <span className="text-[#c9d1be]">Team Distribution</span>
+                  <div className="w-3 h-3 bg-[#d1bebe] rounded-full mr-2"></div>
+                  <span className="text-[#d1bebe]">Team Distribution</span>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-[#b77e47]">15+</div>
-                  <div className="text-xs text-[#c9d1be]/70">Master Craftsmen</div>
+                  <div className="text-xs text-[#d1bebe]/70">Master Craftsmen</div>
                 </div>
               </div>
             </div>
 
-            <div className="stats-card bg-gradient-to-r from-[#2e493c]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-2xl p-6 border border-[#b77e47]/30 opacity-0">
+            <div className="stats-card bg-gradient-to-r from-[#5b1a1a]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-2xl p-6 border border-[#b77e47]/30 opacity-0">
               <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Gemology Services</h3>
-              <p className="text-[#c9d1be]">
+              <p className="text-[#d1bebe]">
                 Elara Jewelry offers expert gemological certification and consultation services, ensuring authenticity and quality for every piece of jewelry.
               </p>
             </div>

@@ -18,7 +18,7 @@ export default function StyledLink(props: StyledLinkProps) {
         className="relative flex w-full cursor-pointer items-center justify-between overflow-hidden py-4 pr-4 text-lg [line-height:1.1] md:py-2-5 md:text-xl"
       >
         <span>{children}</span>
-        <NavigateSVG style={{ fill: "#d1ccbf" }} />
+        <NavigateSVG style={{ fill: "#d1bebe" }} />
         <MotionConfig
           transition={{
             duration: 0.4,

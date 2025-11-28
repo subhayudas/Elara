@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <ReactLenis root>
         <body
-          className={`${BasisGrotesquePro.variable} antialiased selection:bg-[#ced1bf] selection:text-[#2b3530]`}
+          className={`${BasisGrotesquePro.variable} antialiased selection:bg-[#d1c4c4] selection:text-[#4a1a1a]`}
         >
           <WindowSizeProvider>
             <FluidCursorWrapper />

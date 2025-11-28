@@ -33,7 +33,7 @@ export default function FoundersSection() {
   };
 
   return (
-    <div className="flex flex-col bg-[#30493D] text-[#D1CCBF] md:grid md:grid-cols-2">
+    <div className="flex flex-col bg-[#5b1a1a] text-[#d1bebe] md:grid md:grid-cols-2">
       <div className="flex flex-col justify-center px-3-75 py-40 md:py-0">
         <div className="flex flex-col gap-12 md:ml-36 md:w-fit md:gap-16">
           <SectionTitle>Our Founders</SectionTitle>
@@ -68,7 +68,7 @@ export default function FoundersSection() {
           </StyledLink>
         </div>
       </div>
-      <div className="flex items-center justify-center bg-[#2B3530] p-10">
+      <div className="flex items-center justify-center bg-[#4a1a1a] p-10">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div className="flex flex-col items-center">
             <div className="relative h-64 w-64 overflow-hidden rounded-full">

@@ -20,7 +20,7 @@ export default function FormServer() {
   ];
 
   return (
-    <div className="flex flex-col bg-[#CED1BF] md:grid md:grid-cols-2">
+    <div className="flex flex-col bg-[#d1c4c4] md:grid md:grid-cols-2">
       <ParallaxContainer parallaxAmount={25}>
         <Image src={FormImage} alt="form-image" className="h-auto w-full" />
       </ParallaxContainer>
@@ -50,7 +50,7 @@ export default function FormServer() {
               <Select options="countries" />
             </Label>
           </div>
-          <div className="mt-10 space-y-5 text-sm text-[#2b3530] md:text-base">
+          <div className="mt-10 space-y-5 text-sm text-[#4a1a1a] md:text-base">
             <p>I would like to receive information on Elara Group of Companies.</p>
             <div className="flex flex-wrap gap-4">
               {categories.map((category) => (
@@ -60,19 +60,19 @@ export default function FormServer() {
           </div>
           <Checkbox className="mt-8-75" required={true}>
             I agree to the{" "}
-            <Link href="" className="underline-[#2b3530] underline">
+            <Link href="" className="underline-[#4a1a1a] underline">
               Policies and Terms
             </Link>
           </Checkbox>
           <motion.button
             type="submit"
-            className="mt-14 flex w-full cursor-pointer items-center justify-between px-6 py-5 text-base text-[#d1ccbf] md:text-lg"
-            initial={{ backgroundColor: "#2b3530" }}
+            className="mt-14 flex w-full cursor-pointer items-center justify-between px-6 py-5 text-base text-[#d1bebe] md:text-lg"
+            initial={{ backgroundColor: "#4a1a1a" }}
             whileHover={{ backgroundColor: "#304d3d" }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
           >
             <span>Submit</span>
-            <NavigateSVG fill="#D1CCBF" />
+            <NavigateSVG fill="#d1bebe" />
           </motion.button>
         </Form>
       </div>

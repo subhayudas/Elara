@@ -127,21 +127,21 @@ export default function MarketingStrategy() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 bg-gradient-to-b from-[#2a3530] to-[#2e493c] text-[#c9d1be] overflow-hidden"
+      className="relative py-24 bg-gradient-to-b from-[#4a1a1a] to-[#5b1a1a] text-[#d1bebe] overflow-hidden"
     >
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('/images/marketing-pattern.svg')] bg-repeat opacity-5"></div>
         <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#b77e47]/10 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#c9d1be]/10 blur-3xl rounded-full"></div>
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#d1bebe]/10 blur-3xl rounded-full"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c9d1be] to-[#b77e47]">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
             Marketing Strategy
           </span>
         </h2>
-        <p className="text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
+        <p className="text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">
           Elara Jewelry aims to expand its presence through a multi-fold strategy, leveraging digital platforms and showcasing exquisite craftsmanship.
         </p>
 
@@ -152,16 +152,16 @@ export default function MarketingStrategy() {
                 key={strategy.id}
                 className={`cursor-pointer transition-all duration-300 p-6 rounded-xl backdrop-blur-sm border
                   ${activeStrategy === strategy.id
-                    ? 'bg-gradient-to-r from-[#2e493c]/50 to-[#b77e47]/30 border-[#b77e47]/30 shadow-lg shadow-[#b77e47]/20'
-                    : 'bg-[#2a3530]/50 border-[#2e493c]/50 hover:bg-[#2a3530]/70'
+                    ? 'bg-gradient-to-r from-[#5b1a1a]/50 to-[#b77e47]/30 border-[#b77e47]/30 shadow-lg shadow-[#b77e47]/20'
+                    : 'bg-[#4a1a1a]/50 border-[#5b1a1a]/50 hover:bg-[#4a1a1a]/70'
                   }`}
                 onClick={() => setActiveStrategy(strategy.id)}
               >
                 <div className="flex items-center gap-4">
                   <div className={`flex items-center justify-center rounded-full size-12
                     ${activeStrategy === strategy.id
-                      ? 'bg-[#c9d1be] text-[#2a3530]'
-                      : 'bg-gradient-to-r from-[#2e493c] to-[#b77e47] text-[#c9d1be]'
+                      ? 'bg-[#d1bebe] text-[#4a1a1a]'
+                      : 'bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] text-[#d1bebe]'
                     }`}
                   >
                     {renderIcon(strategy.icon)}
@@ -175,18 +175,18 @@ export default function MarketingStrategy() {
           </div>
 
           <div className="w-full lg:w-2/3">
-            <div className="bg-[#2a3530]/50 backdrop-blur-sm rounded-3xl p-8 border border-[#2e493c]/50 h-full">
+            <div className="bg-[#4a1a1a]/50 backdrop-blur-sm rounded-3xl p-8 border border-[#5b1a1a]/50 h-full">
               <div className="mb-8">
-                <div className="inline-block px-4 py-2 rounded-full text-sm font-medium mb-4 bg-gradient-to-r from-[#2e493c] to-[#b77e47] text-[#c9d1be]">
+                <div className="inline-block px-4 py-2 rounded-full text-sm font-medium mb-4 bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] text-[#d1bebe]">
                   {activeStrategyData.title}
                 </div>
 
-                <p className="text-xl text-[#c9d1be] mb-8">
+                <p className="text-xl text-[#d1bebe] mb-8">
                   {activeStrategyData.description}
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                  <div className="bg-gradient-to-r from-[#2e493c]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-2xl p-6 border border-[#b77e47]/30">
+                  <div className="bg-gradient-to-r from-[#5b1a1a]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-2xl p-6 border border-[#b77e47]/30">
                     <h3 className="text-xl font-bold mb-4 text-[#b77e47]">Retail Store Marketing</h3>
                     <ul className="space-y-3">
                       {retailStrategies.map((item, index) => (
@@ -196,28 +196,28 @@ export default function MarketingStrategy() {
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
                           </div>
-                          <span className="text-[#c9d1be]">{item}</span>
+                          <span className="text-[#d1bebe]">{item}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
 
-                  <div className="bg-[#2a3530]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#2e493c]/50">
+                  <div className="bg-[#4a1a1a]/50 backdrop-blur-sm rounded-2xl p-6 border border-[#5b1a1a]/50">
                     <h3 className="text-xl font-bold mb-4 text-[#b77e47]">Market Context</h3>
-                    <p className="text-[#c9d1be] mb-4">
+                    <p className="text-[#d1bebe] mb-4">
                       India's jewelry market is one of the largest in the world, with growing demand for fine jewelry, diamonds, and custom-designed pieces.
                     </p>
-                    <p className="text-[#c9d1be]">
+                    <p className="text-[#d1bebe]">
                       The market is projected to grow significantly, driven by increasing disposable income, wedding season demand, and preference for certified diamonds.
                     </p>
 
-                    <div className="mt-6 pt-6 border-t border-[#2e493c]/50">
+                    <div className="mt-6 pt-6 border-t border-[#5b1a1a]/50">
                       <div className="flex items-center justify-between mb-2">
-                        <span className="text-sm text-[#c9d1be]/70">Market Growth</span>
+                        <span className="text-sm text-[#d1bebe]/70">Market Growth</span>
                         <span className="text-sm text-[#b77e47]">15% CAGR</span>
                       </div>
-                      <div className="w-full bg-[#2e493c]/50 rounded-full h-2">
-                        <div className="bg-gradient-to-r from-[#2e493c] to-[#b77e47] h-2 rounded-full" style={{ width: '15%' }}></div>
+                      <div className="w-full bg-[#5b1a1a]/50 rounded-full h-2">
+                        <div className="bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] h-2 rounded-full" style={{ width: '15%' }}></div>
                       </div>
                     </div>
                   </div>
@@ -227,21 +227,21 @@ export default function MarketingStrategy() {
               <div className="mt-12">
                 <h3 className="text-xl font-bold mb-6 text-center text-[#b77e47]">Boutique Locations</h3>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                    <div className="text-lg font-bold text-[#c9d1be]">Delhi Boutique</div>
-                    <div className="text-xs text-[#c9d1be]/70">Engagement Rings</div>
+                  <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                    <div className="text-lg font-bold text-[#d1bebe]">Delhi Boutique</div>
+                    <div className="text-xs text-[#d1bebe]/70">Engagement Rings</div>
                   </div>
-                  <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                    <div className="text-lg font-bold text-[#c9d1be]">Mumbai Boutique</div>
-                    <div className="text-xs text-[#c9d1be]/70">Wedding Collections</div>
+                  <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                    <div className="text-lg font-bold text-[#d1bebe]">Mumbai Boutique</div>
+                    <div className="text-xs text-[#d1bebe]/70">Wedding Collections</div>
                   </div>
-                  <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                    <div className="text-lg font-bold text-[#c9d1be]">Bangalore Boutique</div>
-                    <div className="text-xs text-[#c9d1be]/70">Custom Designs</div>
+                  <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                    <div className="text-lg font-bold text-[#d1bebe]">Bangalore Boutique</div>
+                    <div className="text-xs text-[#d1bebe]/70">Custom Designs</div>
                   </div>
-                  <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
-                    <div className="text-lg font-bold text-[#c9d1be]">Chennai Boutique</div>
-                    <div className="text-xs text-[#c9d1be]/70">Diamond Jewelry</div>
+                  <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                    <div className="text-lg font-bold text-[#d1bebe]">Chennai Boutique</div>
+                    <div className="text-xs text-[#d1bebe]/70">Diamond Jewelry</div>
                   </div>
                 </div>
               </div>

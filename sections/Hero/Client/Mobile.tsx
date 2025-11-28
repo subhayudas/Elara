@@ -111,7 +111,7 @@ export default function HeroMobileClient({
         {/* Hero Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-white">
           <h1 className="hero-title text-4xl font-bold mb-4 text-center opacity-0">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#2e493c] to-[#b77e47]">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#5b1a1a] to-[#b77e47]">
               Elara Group
             </span>
           </h1>
@@ -119,7 +119,7 @@ export default function HeroMobileClient({
             Pioneering retail excellence across India with premium global brands
           </p>
           <div className="hero-cta opacity-0">
-            <div className="px-6 py-3 rounded-full bg-[#2e493c]/20 backdrop-blur-sm border border-[#b77e47]/30 text-sm font-medium text-[#c9d1be]">
+            <div className="px-6 py-3 rounded-full bg-[#5b1a1a]/20 backdrop-blur-sm border border-[#b77e47]/30 text-sm font-medium text-[#d1bebe]">
               Discover Our Journey
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function HeroMobileClient({
         <Cursor
           renderCursor={!playIntro}
           isMobile={true}
-          className="absolute grid aspect-square h-14 place-items-center rounded-full bg-gradient-to-r from-[#2e493c] to-[#b77e47] shadow-lg shadow-[#b77e47]/30"
+          className="absolute grid aspect-square h-14 place-items-center rounded-full bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] shadow-lg shadow-[#b77e47]/30"
         >
           <PlaySVG />
         </Cursor>

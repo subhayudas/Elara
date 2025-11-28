@@ -10,7 +10,7 @@ const businessChannels = [
     title: "Boutique Stores",
     description: "25+ premium boutique stores across India featuring exquisite engagement rings, wedding collections, diamond jewelry, and custom-designed pieces. Each boutique offers personalized service and expert gemological consultation.",
     icon: "store",
-    color: "from-[#2e493c] to-[#b77e47]",
+    color: "from-[#5b1a1a] to-[#b77e47]",
     image: "/images/retail-store.jpg" // Placeholder image path
   },
   {
@@ -18,7 +18,7 @@ const businessChannels = [
     title: "Custom Design Services",
     description: "Master craftsmen creating one-of-a-kind pieces tailored to your vision. From initial consultation to final creation, we bring your dream jewelry to life with precision and artistry.",
     icon: "truck",
-    color: "from-[#b77e47] to-[#2a3530]",
+    color: "from-[#b77e47] to-[#4a1a1a]",
     image: "/images/distribution.jpg" // Placeholder image path
   },
   {
@@ -26,7 +26,7 @@ const businessChannels = [
     title: "Online & E-commerce",
     description: "Browse and purchase from our curated collections online. We offer secure transactions, detailed gemological certificates, and nationwide delivery. Also available on leading e-commerce platforms.",
     icon: "globe",
-    color: "from-[#2a3530] to-[#2e493c]",
+    color: "from-[#4a1a1a] to-[#5b1a1a]",
     image: "/images/institutional.jpg" // Placeholder image path
   }
 ];
@@ -152,21 +152,21 @@ export default function BusinessChannels() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 bg-gradient-to-br from-[#2a3530] to-[#2a3530] text-[#c9d1be] overflow-hidden"
+      className="relative py-24 bg-gradient-to-br from-[#4a1a1a] to-[#4a1a1a] text-[#d1bebe] overflow-hidden"
     >
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('/images/circuit-pattern.svg')] bg-repeat opacity-5"></div>
         <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#b77e47]/10 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#c9d1be]/10 blur-3xl rounded-full"></div>
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#d1bebe]/10 blur-3xl rounded-full"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="section-title text-4xl md:text-10xl font-bold mb-4 text-center opacity-0">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c9d1be] to-[#b77e47]">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
             Business Channels
           </span>
         </h2>
-        <p className="section-title text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto opacity-0">
+        <p className="section-title text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto opacity-0">
           Elara Jewelry operates through multiple channels, bringing exquisite fine jewelry and personalized service to customers across India.
         </p>
 
@@ -178,15 +178,15 @@ export default function BusinessChannels() {
                 className={`channel-card cursor-pointer transition-all duration-300 opacity-0 backdrop-blur-sm rounded-2xl p-6 border
                   ${activeChannel === channel.id
                     ? `bg-gradient-to-r ${channel.color} border-[#b77e47]/30 shadow-lg`
-                    : 'bg-[#2a3530]/50 border-[#2e493c]/50 hover:bg-[#2a3530]/70'
+                    : 'bg-[#4a1a1a]/50 border-[#5b1a1a]/50 hover:bg-[#4a1a1a]/70'
                   }`}
                 onClick={() => handleChannelChange(channel.id)}
               >
                 <div className="flex items-center gap-4">
                   <div className={`flex items-center justify-center rounded-full size-12
                     ${activeChannel === channel.id
-                      ? 'bg-[#c9d1be] text-[#2a3530]'
-                      : `bg-gradient-to-r ${channel.color} text-[#c9d1be]`
+                      ? 'bg-[#d1bebe] text-[#4a1a1a]'
+                      : `bg-gradient-to-r ${channel.color} text-[#d1bebe]`
                     }`}
                   >
                     {renderIcon(channel.icon)}
@@ -200,81 +200,81 @@ export default function BusinessChannels() {
           </div>
 
           <div className="w-full lg:w-2/3">
-            <div className="channel-detail relative bg-[#2a3530]/50 backdrop-blur-sm rounded-3xl overflow-hidden border border-[#2e493c]/50 h-[500px] opacity-0">
+            <div className="channel-detail relative bg-[#4a1a1a]/50 backdrop-blur-sm rounded-3xl overflow-hidden border border-[#5b1a1a]/50 h-[500px] opacity-0">
               <div className="absolute inset-0 opacity-30">
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
                   style={{ backgroundImage: `url(${activeChannelData.image})` }}
                 ></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-[#2a3530] via-[#2a3530]/80 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#4a1a1a] via-[#4a1a1a]/80 to-transparent"></div>
               </div>
 
               <div className="relative h-full flex flex-col justify-end p-8">
                 <div className="channel-detail-content">
-                  <div className={`inline-block px-4 py-2 rounded-full text-sm font-medium mb-4 bg-gradient-to-r ${activeChannelData.color} text-[#c9d1be]`}>
+                  <div className={`inline-block px-4 py-2 rounded-full text-sm font-medium mb-4 bg-gradient-to-r ${activeChannelData.color} text-[#d1bebe]`}>
                     {activeChannelData.title}
                   </div>
 
                   <div className="space-y-6">
-                    <p className="text-lg text-[#c9d1be] max-w-2xl">
+                    <p className="text-lg text-[#d1bebe] max-w-2xl">
                       {activeChannelData.description}
                     </p>
 
                     {activeChannelData.id === "retail" && (
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-3xl font-bold text-[#b77e47]">25+</div>
-                          <div className="text-xs text-[#c9d1be]/70">Boutique Stores</div>
+                          <div className="text-xs text-[#d1bebe]/70">Boutique Stores</div>
                         </div>
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-3xl font-bold text-[#b77e47]">15+</div>
-                          <div className="text-xs text-[#c9d1be]/70">Cities</div>
+                          <div className="text-xs text-[#d1bebe]/70">Cities</div>
                         </div>
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-3xl font-bold text-[#b77e47]">100%</div>
-                          <div className="text-xs text-[#c9d1be]/70">Certified Diamonds</div>
+                          <div className="text-xs text-[#d1bebe]/70">Certified Diamonds</div>
                         </div>
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-3xl font-bold text-[#b77e47]">24/7</div>
-                          <div className="text-xs text-[#c9d1be]/70">Customer Service</div>
+                          <div className="text-xs text-[#d1bebe]/70">Customer Service</div>
                         </div>
                       </div>
                     )}
 
                     {activeChannelData.id === "custom" && (
                       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-3xl font-bold text-[#b77e47]">1000+</div>
-                          <div className="text-xs text-[#c9d1be]/70">Custom Designs</div>
+                          <div className="text-xs text-[#d1bebe]/70">Custom Designs</div>
                         </div>
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-3xl font-bold text-[#b77e47]">15+</div>
-                          <div className="text-xs text-[#c9d1be]/70">Master Craftsmen</div>
+                          <div className="text-xs text-[#d1bebe]/70">Master Craftsmen</div>
                         </div>
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-3xl font-bold text-[#b77e47]">100%</div>
-                          <div className="text-xs text-[#c9d1be]/70">Satisfaction</div>
+                          <div className="text-xs text-[#d1bebe]/70">Satisfaction</div>
                         </div>
                       </div>
                     )}
 
                     {activeChannelData.id === "online" && (
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-2xl font-bold text-[#b77e47]">Online</div>
-                          <div className="text-xs text-[#c9d1be]/70">Store</div>
+                          <div className="text-xs text-[#d1bebe]/70">Store</div>
                         </div>
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-2xl font-bold text-[#b77e47]">Amazon</div>
-                          <div className="text-xs text-[#c9d1be]/70">E-commerce</div>
+                          <div className="text-xs text-[#d1bebe]/70">E-commerce</div>
                         </div>
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-2xl font-bold text-[#b77e47]">Flipkart</div>
-                          <div className="text-xs text-[#c9d1be]/70">E-commerce</div>
+                          <div className="text-xs text-[#d1bebe]/70">E-commerce</div>
                         </div>
-                        <div className="bg-[#2e493c]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
+                        <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                           <div className="text-2xl font-bold text-[#b77e47]">Pan India</div>
-                          <div className="text-xs text-[#c9d1be]/70">Delivery</div>
+                          <div className="text-xs text-[#d1bebe]/70">Delivery</div>
                         </div>
                       </div>
                     )}

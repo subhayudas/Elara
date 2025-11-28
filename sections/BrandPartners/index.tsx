@@ -48,10 +48,10 @@ const BrandLogo = ({ position, rotation, scale, index }: { position: [number, nu
     >
       <boxGeometry args={[1, 1, 0.1]} />
       <meshStandardMaterial
-        color={hovered ? "#b77e47" : "#2e493c"}
+        color={hovered ? "#b77e47" : "#5b1a1a"}
         metalness={0.8}
         roughness={0.2}
-        emissive={hovered ? "#c9d1be" : "#000000"}
+        emissive={hovered ? "#d1bebe" : "#000000"}
         emissiveIntensity={hovered ? 0.5 : 0}
       />
     </mesh>
@@ -124,27 +124,27 @@ export default function BrandPartners() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 bg-gradient-to-b from-[#2a3530] to-[#2e493c] text-[#c9d1be] overflow-hidden"
+      className="relative py-24 bg-gradient-to-b from-[#4a1a1a] to-[#5b1a1a] text-[#d1bebe] overflow-hidden"
     >
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('/images/circuit-pattern.svg')] bg-repeat opacity-5"></div>
         <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#b77e47]/10 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#c9d1be]/10 blur-3xl rounded-full"></div>
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#d1bebe]/10 blur-3xl rounded-full"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c9d1be] to-[#b77e47]">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
             Our Exquisite Collections
           </span>
         </h2>
-        <p className="text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
+        <p className="text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">
           Elara Jewelry offers a wide range of fine jewelry collections, from engagement rings to custom-designed pieces, crafted with precision and passion.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8 items-center">
           <div className="w-full lg:w-1/2 h-[500px]">
-            <div className="h-full w-full bg-[#2e493c]/20 backdrop-blur-sm rounded-3xl overflow-hidden border border-[#b77e47]/20">
+            <div className="h-full w-full bg-[#5b1a1a]/20 backdrop-blur-sm rounded-3xl overflow-hidden border border-[#b77e47]/20">
               <Canvas camera={{ position: [0, 0, 8], fov: 25 }}>
                 <BrandScene />
               </Canvas>
@@ -152,7 +152,7 @@ export default function BrandPartners() {
           </div>
 
           <div className="w-full lg:w-1/2 space-y-8">
-            <div className="bg-[#2a3530]/50 backdrop-blur-sm rounded-2xl p-8 border border-[#2e493c]/50">
+            <div className="bg-[#4a1a1a]/50 backdrop-blur-sm rounded-2xl p-8 border border-[#5b1a1a]/50">
               <h3 className="text-2xl font-bold mb-6 text-[#b77e47]">Featured Brands</h3>
 
               <div className="grid grid-cols-3 gap-4">
@@ -161,12 +161,12 @@ export default function BrandPartners() {
                     key={brand.name}
                     className={`cursor-pointer transition-all duration-300 p-4 rounded-xl text-center
                       ${activeIndex === index
-                        ? 'bg-gradient-to-r from-[#2e493c]/50 to-[#b77e47]/30 shadow-lg shadow-[#b77e47]/20'
-                        : 'bg-[#2a3530]/50 hover:bg-[#2a3530]/70'
+                        ? 'bg-gradient-to-r from-[#5b1a1a]/50 to-[#b77e47]/30 shadow-lg shadow-[#b77e47]/20'
+                        : 'bg-[#4a1a1a]/50 hover:bg-[#4a1a1a]/70'
                       }`}
                     onClick={() => setActiveIndex(index)}
                   >
-                    <div className="aspect-square w-full bg-[#2e493c]/30 rounded-lg mb-2 flex items-center justify-center border border-[#b77e47]/20 p-2 overflow-hidden">
+                    <div className="aspect-square w-full bg-[#5b1a1a]/30 rounded-lg mb-2 flex items-center justify-center border border-[#b77e47]/20 p-2 overflow-hidden">
                       <Image
                         src={brand.logo}
                         alt={brand.name}
@@ -175,15 +175,15 @@ export default function BrandPartners() {
                         className="w-full h-full object-contain"
                       />
                     </div>
-                    <div className="text-sm font-medium text-[#c9d1be]">{brand.name}</div>
+                    <div className="text-sm font-medium text-[#d1bebe]">{brand.name}</div>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-[#2e493c]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-2xl p-6 border border-[#b77e47]/30">
+            <div className="bg-gradient-to-r from-[#5b1a1a]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-2xl p-6 border border-[#b77e47]/30">
               <h3 className="text-xl font-bold mb-3 text-[#b77e47]">Collection Highlights</h3>
-              <p className="text-[#c9d1be]">
+              <p className="text-[#d1bebe]">
                 Our collections span engagement rings, wedding jewelry, diamond pieces, and custom designs.
                 With 25+ boutique stores and expert gemologists, we bring exquisite fine jewelry to customers across India.
               </p>

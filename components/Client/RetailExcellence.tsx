@@ -5,7 +5,7 @@ import RetailExcellenceClient from "@/components/Client/RetailExcellenceClient";
 
 export default function RetailExcellence() {
   return (
-    <div className="bg-[#30493D] py-36 text-[#D1CCBF] md:py-60">
+    <div className="bg-[#5b1a1a] py-36 text-[#d1bebe] md:py-60">
       <ResponsiveMarquee
         animationConfig={{
           mobile: {

@@ -25,7 +25,7 @@ export default function WellnessSanctuary() {
   };
 
   return (
-    <div className="flex flex-col bg-[#30493D] text-[#D1CCBF] md:grid md:grid-cols-2">
+    <div className="flex flex-col bg-[#5b1a1a] text-[#d1bebe] md:grid md:grid-cols-2">
       <ResponsiveImage parallaxAmount={20}>
         <Image
           src={WellnessSanctuaryImage}

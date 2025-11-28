@@ -22,13 +22,13 @@ html.lenis body {
 }
 
 ::-moz-selection {
-  background: #ced1bf;
-  color: #2b3530;
+  background: #d1c4c4;
+  color: #4a1a1a;
 }
 
 ::selection {
-  background: #ced1bf;
-  color: #2b3530;
+  background: #d1c4c4;
+  color: #4a1a1a;
 }
 body::-webkit-scrollbar {
   display: none;

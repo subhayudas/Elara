@@ -116,34 +116,34 @@ export default function FutureGrowth() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 bg-gradient-to-b from-[#2a3530] to-[#2e493c] text-[#c9d1be] overflow-hidden"
+      className="relative py-24 bg-gradient-to-b from-[#4a1a1a] to-[#5b1a1a] text-[#d1bebe] overflow-hidden"
     >
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('/images/growth-pattern.svg')] bg-repeat opacity-5"></div>
         <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#b77e47]/10 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#c9d1be]/10 blur-3xl rounded-full"></div>
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#d1bebe]/10 blur-3xl rounded-full"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c9d1be] to-[#b77e47]">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
             Future Growth Projections
           </span>
         </h2>
-        <p className="text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
+        <p className="text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">
           Elara Jewelry anticipates significant growth with expanding collections, new boutique openings, and increasing demand for fine jewelry across India.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-12 items-center mb-20">
           <div className="w-full lg:w-1/2">
-            <div className="bg-[#2a3530]/50 backdrop-blur-sm rounded-3xl p-8 border border-[#2e493c]/50">
+            <div className="bg-[#4a1a1a]/50 backdrop-blur-sm rounded-3xl p-8 border border-[#5b1a1a]/50">
               <div className="flex justify-center gap-4 mb-8">
                 <button
                   onClick={() => setActiveTab("revenue")}
                   className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300
                     ${activeTab === "revenue"
-                      ? "bg-gradient-to-r from-[#2e493c] to-[#b77e47] text-[#c9d1be] shadow-lg shadow-[#b77e47]/25"
-                      : "bg-[#2a3530] text-[#c9d1be]/80 hover:bg-[#2a3530]/70"
+                      ? "bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] text-[#d1bebe] shadow-lg shadow-[#b77e47]/25"
+                      : "bg-[#4a1a1a] text-[#d1bebe]/80 hover:bg-[#4a1a1a]/70"
                     }`}
                 >
                   Revenue
@@ -152,15 +152,15 @@ export default function FutureGrowth() {
                   onClick={() => setActiveTab("ebitda")}
                   className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300
                     ${activeTab === "ebitda"
-                      ? "bg-gradient-to-r from-[#2e493c] to-[#b77e47] text-[#c9d1be] shadow-lg shadow-[#b77e47]/25"
-                      : "bg-[#2a3530] text-[#c9d1be]/80 hover:bg-[#2a3530]/70"
+                      ? "bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] text-[#d1bebe] shadow-lg shadow-[#b77e47]/25"
+                      : "bg-[#4a1a1a] text-[#d1bebe]/80 hover:bg-[#4a1a1a]/70"
                     }`}
                 >
                   EBITDA
                 </button>
               </div>
 
-              <h3 className="text-xl font-semibold mb-8 text-center text-[#c9d1be]">
+              <h3 className="text-xl font-semibold mb-8 text-center text-[#d1bebe]">
                 Projected {activeTab === "revenue" ? "Revenue" : "EBITDA"} Growth (₹ Crore)
               </h3>
 
@@ -177,24 +177,24 @@ export default function FutureGrowth() {
                       >
                         <div className="relative w-full h-full flex justify-center items-end">
                           <div
-                            className={`w-full max-w-[60px] rounded-t-lg bg-gradient-to-t from-[#2e493c] to-[#b77e47] transition-all duration-1000`}
+                            className={`w-full max-w-[60px] rounded-t-lg bg-gradient-to-t from-[#5b1a1a] to-[#b77e47] transition-all duration-1000`}
                             style={{
                               height: `${heightPercentage}%`,
                               opacity: hoveredYear === item.year ? 1 : 0.7
                             }}
                           >
-                            <div className="absolute -top-8 left-1/2 -translate-x-1/2 text-base font-bold text-[#c9d1be]">
+                            <div className="absolute -top-8 left-1/2 -translate-x-1/2 text-base font-bold text-[#d1bebe]">
                               {animatedValues[item.year] || 0}
                             </div>
                           </div>
 
                           {item.isProjected && (
-                            <div className="absolute inset-0 bg-gradient-to-t from-[#c9d1be]/10 to-[#c9d1be]/0 rounded-t-lg opacity-50"></div>
+                            <div className="absolute inset-0 bg-gradient-to-t from-[#d1bebe]/10 to-[#d1bebe]/0 rounded-t-lg opacity-50"></div>
                           )}
                         </div>
-                        <div className="mt-2 text-sm text-[#c9d1be]/70">
+                        <div className="mt-2 text-sm text-[#d1bebe]/70">
                           {item.year}
-                          {item.isProjected && <span className="text-xs text-[#c9d1be]/50 block">(Projected)</span>}
+                          {item.isProjected && <span className="text-xs text-[#d1bebe]/50 block">(Projected)</span>}
                         </div>
                       </div>
                     );
@@ -204,23 +204,23 @@ export default function FutureGrowth() {
                 {/* Horizontal grid lines */}
                 <div className="absolute inset-0 flex flex-col justify-between pointer-events-none">
                   {[0, 1, 2, 3, 4].map((_, i) => (
-                    <div key={i} className="w-full h-px bg-[#2e493c]/50"></div>
+                    <div key={i} className="w-full h-px bg-[#5b1a1a]/50"></div>
                   ))}
                 </div>
               </div>
 
-              <div className="mt-8 pt-8 border-t border-[#2e493c]/50">
+              <div className="mt-8 pt-8 border-t border-[#5b1a1a]/50">
                 <div className="flex items-center justify-between">
                   <div className="text-center">
-                    <div className="text-sm text-[#c9d1be]/70 mb-1">CAGR</div>
+                    <div className="text-sm text-[#d1bebe]/70 mb-1">CAGR</div>
                     <div className="text-2xl font-bold text-[#b77e47]">~22%</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-sm text-[#c9d1be]/70 mb-1">EBITDA Margin (2027-28)</div>
+                    <div className="text-sm text-[#d1bebe]/70 mb-1">EBITDA Margin (2027-28)</div>
                     <div className="text-2xl font-bold text-[#b77e47]">20%</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-sm text-[#c9d1be]/70 mb-1">Current EBITDA Margin</div>
+                    <div className="text-sm text-[#d1bebe]/70 mb-1">Current EBITDA Margin</div>
                     <div className="text-2xl font-bold text-[#b77e47]">14%</div>
                   </div>
                 </div>
@@ -234,7 +234,7 @@ export default function FutureGrowth() {
               {initiatives.map((initiative, index) => (
                 <div
                   key={initiative.title}
-                  className="bg-[#2a3530]/50 backdrop-blur-sm rounded-xl p-6 border border-[#2e493c]/50 transition-all duration-300 hover:bg-[#2e493c]/20 hover:border-[#b77e47]/30 group"
+                  className="bg-[#4a1a1a]/50 backdrop-blur-sm rounded-xl p-6 border border-[#5b1a1a]/50 transition-all duration-300 hover:bg-[#5b1a1a]/20 hover:border-[#b77e47]/30 group"
                 >
                   <div className="flex items-start gap-4 mb-4">
                     <div className="bg-[#b77e47]/20 p-3 rounded-lg group-hover:bg-[#b77e47]/30 transition-all duration-300">
@@ -242,21 +242,21 @@ export default function FutureGrowth() {
                         {renderIcon(initiative.icon)}
                       </div>
                     </div>
-                    <h4 className="text-xl font-bold text-[#c9d1be]">{initiative.title}</h4>
+                    <h4 className="text-xl font-bold text-[#d1bebe]">{initiative.title}</h4>
                   </div>
-                  <p className="text-[#c9d1be]/80">{initiative.description}</p>
+                  <p className="text-[#d1bebe]/80">{initiative.description}</p>
                 </div>
               ))}
             </div>
 
-            <div className="mt-8 bg-gradient-to-r from-[#2e493c]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-xl p-6 border border-[#b77e47]/30">
+            <div className="mt-8 bg-gradient-to-r from-[#5b1a1a]/30 to-[#b77e47]/20 backdrop-blur-sm rounded-xl p-6 border border-[#b77e47]/30">
               <h4 className="text-xl font-bold mb-4 text-[#b77e47]">Market Opportunity</h4>
-              <p className="text-[#c9d1be] mb-4">
+              <p className="text-[#d1bebe] mb-4">
                 India's jewelry market is one of the largest globally, with growing demand for fine jewelry, certified diamonds, and custom-designed pieces, presenting significant growth opportunities for Elara Jewelry.
               </p>
               <div className="flex items-center gap-4 mt-6">
-                <div className="flex-1 bg-[#2a3530]/70 h-2 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#2e493c] to-[#b77e47] rounded-full" style={{ width: '15%' }}></div>
+                <div className="flex-1 bg-[#4a1a1a]/70 h-2 rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] rounded-full" style={{ width: '15%' }}></div>
                 </div>
                 <div className="text-[#b77e47] font-bold">15% CAGR</div>
               </div>
@@ -266,11 +266,11 @@ export default function FutureGrowth() {
 
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-6 text-[#b77e47]">Vision 2028</h3>
-          <p className="text-xl text-[#c9d1be] mb-8">
+          <p className="text-xl text-[#d1bebe] mb-8">
             Elara Jewelry aims to become one of India's leading fine jewelry houses, known for exceptional craftsmanship, certified diamonds, and timeless designs.
           </p>
 
-          <div className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-[#2e493c] to-[#b77e47] text-[#c9d1be] font-medium shadow-lg shadow-[#b77e47]/25">
+          <div className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] text-[#d1bebe] font-medium shadow-lg shadow-[#b77e47]/25">
             Discover Timeless Elegance
           </div>
         </div>

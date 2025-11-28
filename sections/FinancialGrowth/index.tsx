@@ -192,13 +192,13 @@ export default function FinancialGrowth() {
   const getChartData = () => {
     switch (activeChart) {
       case "revenue":
-        return { data: financialData.revenue, max: maxRevenue, title: "Revenue (₹ Crore)", color: "from-[#2e493c] to-[#b77e47]" };
+        return { data: financialData.revenue, max: maxRevenue, title: "Revenue (₹ Crore)", color: "from-[#5b1a1a] to-[#b77e47]" };
       case "gross":
-        return { data: financialData.gross, max: maxGross, title: "Gross (₹ Crore)", color: "from-[#b77e47] to-[#2e493c]" };
+        return { data: financialData.gross, max: maxGross, title: "Gross (₹ Crore)", color: "from-[#b77e47] to-[#5b1a1a]" };
       case "ebitda":
-        return { data: financialData.ebitda, max: maxEbitda, title: "EBITDA (₹ Crore)", color: "from-[#2a3530] to-[#2e493c]" };
+        return { data: financialData.ebitda, max: maxEbitda, title: "EBITDA (₹ Crore)", color: "from-[#4a1a1a] to-[#5b1a1a]" };
       case "employees":
-        return { data: financialData.employees, max: maxEmployees, title: "Number of Employees", color: "from-[#c9d1be]/80 to-[#b77e47]" };
+        return { data: financialData.employees, max: maxEmployees, title: "Number of Employees", color: "from-[#d1bebe]/80 to-[#b77e47]" };
     }
   };
 
@@ -207,21 +207,21 @@ export default function FinancialGrowth() {
   return (
     <section 
       ref={sectionRef}
-      className="relative py-24 bg-gradient-to-br from-[#2a3530] via-[#2e493c] to-[#2a3530] text-[#c9d1be] overflow-hidden"
+      className="relative py-24 bg-gradient-to-br from-[#4a1a1a] via-[#5b1a1a] to-[#4a1a1a] text-[#d1bebe] overflow-hidden"
     >
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')] bg-repeat opacity-10"></div>
         <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#b77e47]/10 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#c9d1be]/10 blur-3xl rounded-full"></div>
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#d1bebe]/10 blur-3xl rounded-full"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="section-title text-4xl md:text-5xl font-bold mb-4 text-center opacity-0">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c9d1be] to-[#b77e47]">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
             Financial Performance & Growth
           </span>
         </h2>
-        <p className="section-title text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto opacity-0">
+        <p className="section-title text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto opacity-0">
           Elara Group has shown significant financial growth with a projected CAGR of ~22% and expected EBITDA margin of 20% by FY 2027-28.
         </p>
 
@@ -230,8 +230,8 @@ export default function FinancialGrowth() {
             onClick={() => setActiveChart("revenue")}
             className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 opacity-0
               ${activeChart === "revenue" 
-                ? "bg-gradient-to-r from-[#2e493c] to-[#b77e47] text-[#c9d1be] shadow-lg shadow-[#b77e47]/25" 
-                : "bg-[#2a3530] text-[#c9d1be]/80 hover:bg-[#2a3530]/80"
+                ? "bg-gradient-to-r from-[#5b1a1a] to-[#b77e47] text-[#d1bebe] shadow-lg shadow-[#b77e47]/25" 
+                : "bg-[#4a1a1a] text-[#d1bebe]/80 hover:bg-[#4a1a1a]/80"
               }`}
           >
             Revenue
@@ -240,8 +240,8 @@ export default function FinancialGrowth() {
             onClick={() => setActiveChart("gross")}
             className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 opacity-0
               ${activeChart === "gross" 
-                ? "bg-gradient-to-r from-[#b77e47] to-[#2e493c] text-[#c9d1be] shadow-lg shadow-[#b77e47]/25" 
-                : "bg-[#2a3530] text-[#c9d1be]/80 hover:bg-[#2a3530]/80"
+                ? "bg-gradient-to-r from-[#b77e47] to-[#5b1a1a] text-[#d1bebe] shadow-lg shadow-[#b77e47]/25" 
+                : "bg-[#4a1a1a] text-[#d1bebe]/80 hover:bg-[#4a1a1a]/80"
               }`}
           >
             Gross
@@ -250,8 +250,8 @@ export default function FinancialGrowth() {
             onClick={() => setActiveChart("ebitda")}
             className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 opacity-0
               ${activeChart === "ebitda" 
-                ? "bg-gradient-to-r from-[#2a3530] to-[#2e493c] text-[#c9d1be] shadow-lg shadow-[#2e493c]/25" 
-                : "bg-[#2a3530] text-[#c9d1be]/80 hover:bg-[#2a3530]/80"
+                ? "bg-gradient-to-r from-[#4a1a1a] to-[#5b1a1a] text-[#d1bebe] shadow-lg shadow-[#5b1a1a]/25" 
+                : "bg-[#4a1a1a] text-[#d1bebe]/80 hover:bg-[#4a1a1a]/80"
               }`}
           >
             EBITDA
@@ -260,8 +260,8 @@ export default function FinancialGrowth() {
             onClick={() => setActiveChart("employees")}
             className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 opacity-0
               ${activeChart === "employees" 
-                ? "bg-gradient-to-r from-[#c9d1be]/80 to-[#b77e47] text-[#2a3530] shadow-lg shadow-[#b77e47]/25" 
-                : "bg-[#2a3530] text-[#c9d1be]/80 hover:bg-[#2a3530]/80"
+                ? "bg-gradient-to-r from-[#d1bebe]/80 to-[#b77e47] text-[#4a1a1a] shadow-lg shadow-[#b77e47]/25" 
+                : "bg-[#4a1a1a] text-[#d1bebe]/80 hover:bg-[#4a1a1a]/80"
               }`}
           >
             Employees
@@ -269,7 +269,7 @@ export default function FinancialGrowth() {
         </div>
 
         <div className="chart-container">
-          <h3 className="text-xl font-semibold mb-8 text-center text-[#c9d1be]">{chartData.title}</h3>
+          <h3 className="text-xl font-semibold mb-8 text-center text-[#d1bebe]">{chartData.title}</h3>
           
           <div ref={chartRefs[activeChart]} className="relative h-80 max-w-5xl mx-auto">
             <div className="absolute inset-0 flex items-end justify-between gap-2 md:gap-4 pb-10">
@@ -312,9 +312,9 @@ export default function FinancialGrowth() {
           </div>
         </div>
 
-        <div className="mt-20 max-w-4xl mx-auto bg-[#2a3530]/50 backdrop-blur-sm rounded-2xl p-8 border border-[#2e493c]/50">
+        <div className="mt-20 max-w-4xl mx-auto bg-[#4a1a1a]/50 backdrop-blur-sm rounded-2xl p-8 border border-[#5b1a1a]/50">
           <h3 className="text-2xl font-bold mb-6 text-center text-[#b77e47]">Market Context</h3>
-          <div className="space-y-4 text-[#c9d1be]">
+          <div className="space-y-4 text-[#d1bebe]">
             <p>
               In the fiscal year 2022-23, India's Apparel and Sports footwear industry amounted to $103.08 billion, 
               while Elara attained ₹179 Cr.

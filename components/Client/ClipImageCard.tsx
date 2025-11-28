@@ -144,7 +144,7 @@ export default function ClipImageCard({
       viewport={{ amount: 0.5, once: true }}
       style={{ ...style }}
       className={cn(
-        "relative z-10 flex h-full flex-col items-center justify-between py-[8vh] text-[#d1ccbf] backdrop-brightness-[60%] md:flex-row md:px-16 md:py-[15vh]",
+        "relative z-10 flex h-full flex-col items-center justify-between py-[8vh] text-[#d1bebe] backdrop-brightness-[60%] md:flex-row md:px-16 md:py-[15vh]",
         className,
       )}
     >
@@ -158,7 +158,7 @@ export default function ClipImageCard({
           ease: [0.24, 0.43, 0.15, 0.97],
           duration: 0.8,
         }}
-        className="relative z-20 my-[5vh] flex h-[70vh] min-h-fit w-[90%] flex-col items-center gap-8 bg-[#D1CCBF] p-5-75 text-[#2B3530] md:h-full md:max-h-172 md:w-full md:max-w-118 md:px-8 md:py-4"
+        className="relative z-20 my-[5vh] flex h-[70vh] min-h-fit w-[90%] flex-col items-center gap-8 bg-[#d1bebe] p-5-75 text-[#4a1a1a] md:h-full md:max-h-172 md:w-full md:max-w-118 md:px-8 md:py-4"
       >
         <div className="flex items-center gap-1 text-2xs md:text-sm">
           <AnimatedMaskText

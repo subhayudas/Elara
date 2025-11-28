@@ -34,21 +34,21 @@ export default function GlobalPresence() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 bg-gradient-to-b from-[#2a3530] to-[#2e493c] text-[#c9d1be] overflow-hidden"
+      className="relative py-24 bg-gradient-to-b from-[#4a1a1a] to-[#5b1a1a] text-[#d1bebe] overflow-hidden"
     >
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('/images/world-map-dots.svg')] bg-no-repeat bg-center opacity-10"></div>
         <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-[#b77e47]/10 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-[#c9d1be]/10 blur-3xl rounded-full"></div>
+        <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-[#d1bebe]/10 blur-3xl rounded-full"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c9d1be] to-[#b77e47]">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
             Global Presence
           </span>
         </h2>
-        <p className="text-center text-[#c9d1be]/80 mb-16 max-w-3xl mx-auto">
+        <p className="text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">
           Elara Jewelry has established a strong presence across India with premium boutique stores and continues to expand with exquisite fine jewelry collections.
         </p>
 
@@ -58,32 +58,32 @@ export default function GlobalPresence() {
               {/* Contact cards */}
               <div className="flex flex-col md:flex-row gap-4 mb-8">
                 <div
-                  className={`cursor-pointer transition-all duration-300 p-6 rounded-xl backdrop-blur-sm border border-[#2e493c]/50 flex-1
+                  className={`cursor-pointer transition-all duration-300 p-6 rounded-xl backdrop-blur-sm border border-[#5b1a1a]/50 flex-1
                     ${activeContact === "corporate"
-                      ? 'bg-gradient-to-r from-[#2e493c]/30 to-[#b77e47]/20 border-[#b77e47]/30 shadow-lg shadow-[#b77e47]/10'
-                      : 'bg-[#2a3530]/50 hover:bg-[#2a3530]/70'
+                      ? 'bg-gradient-to-r from-[#5b1a1a]/30 to-[#b77e47]/20 border-[#b77e47]/30 shadow-lg shadow-[#b77e47]/10'
+                      : 'bg-[#4a1a1a]/50 hover:bg-[#4a1a1a]/70'
                     }`}
                   onClick={() => setActiveContact("corporate")}
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#b77e47]">Corporate Office</h3>
-                  <p className="text-[#c9d1be]/70 text-sm">New Delhi</p>
+                  <p className="text-[#d1bebe]/70 text-sm">New Delhi</p>
                 </div>
 
                 <div
-                  className={`cursor-pointer transition-all duration-300 p-6 rounded-xl backdrop-blur-sm border border-[#2e493c]/50 flex-1
+                  className={`cursor-pointer transition-all duration-300 p-6 rounded-xl backdrop-blur-sm border border-[#5b1a1a]/50 flex-1
                     ${activeContact === "bangalore"
-                      ? 'bg-gradient-to-r from-[#2e493c]/30 to-[#b77e47]/20 border-[#b77e47]/30 shadow-lg shadow-[#b77e47]/10'
-                      : 'bg-[#2a3530]/50 hover:bg-[#2a3530]/70'
+                      ? 'bg-gradient-to-r from-[#5b1a1a]/30 to-[#b77e47]/20 border-[#b77e47]/30 shadow-lg shadow-[#b77e47]/10'
+                      : 'bg-[#4a1a1a]/50 hover:bg-[#4a1a1a]/70'
                     }`}
                   onClick={() => setActiveContact("bangalore")}
                 >
                   <h3 className="text-xl font-bold mb-2 text-[#b77e47]">Bangalore Boutique</h3>
-                  <p className="text-[#c9d1be]/70 text-sm">Karnataka</p>
+                  <p className="text-[#d1bebe]/70 text-sm">Karnataka</p>
                 </div>
               </div>
 
               {/* Active contact details */}
-              <div className="bg-[#2a3530]/50 backdrop-blur-sm rounded-2xl p-8 border border-[#2e493c]/50">
+              <div className="bg-[#4a1a1a]/50 backdrop-blur-sm rounded-2xl p-8 border border-[#5b1a1a]/50">
                 <h3 className="text-2xl font-bold mb-6 text-[#b77e47]">{contactInfo[activeContact].title}</h3>
 
                 <div className="space-y-4">
@@ -94,8 +94,8 @@ export default function GlobalPresence() {
                       </svg>
                     </div>
                     <div>
-                      <div className="text-sm text-[#c9d1be]/70 mb-1">Address</div>
-                      <div className="text-[#c9d1be]">{contactInfo[activeContact].address}</div>
+                      <div className="text-sm text-[#d1bebe]/70 mb-1">Address</div>
+                      <div className="text-[#d1bebe]">{contactInfo[activeContact].address}</div>
                     </div>
                   </div>
 
@@ -107,8 +107,8 @@ export default function GlobalPresence() {
                         </svg>
                       </div>
                       <div>
-                        <div className="text-sm text-[#c9d1be]/70 mb-1">Phone</div>
-                        <div className="text-[#c9d1be]">{contactInfo[activeContact].phone}</div>
+                        <div className="text-sm text-[#d1bebe]/70 mb-1">Phone</div>
+                        <div className="text-[#d1bebe]">{contactInfo[activeContact].phone}</div>
                       </div>
                     </div>
                   )}
@@ -120,8 +120,8 @@ export default function GlobalPresence() {
                       </svg>
                     </div>
                     <div>
-                      <div className="text-sm text-[#c9d1be]/70 mb-1">Email</div>
-                      <div className="text-[#c9d1be]">{contactInfo[activeContact].email}</div>
+                      <div className="text-sm text-[#d1bebe]/70 mb-1">Email</div>
+                      <div className="text-[#d1bebe]">{contactInfo[activeContact].email}</div>
                     </div>
                   </div>
                 </div>
@@ -135,7 +135,7 @@ export default function GlobalPresence() {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#2a3530]/70 hover:bg-[#b77e47]/20 transition-all duration-300 p-3 rounded-full"
+                    className="bg-[#4a1a1a]/70 hover:bg-[#b77e47]/20 transition-all duration-300 p-3 rounded-full"
                   >
                     {link.icon === "instagram" && (
                       <svg xmlns="http://www.w3.org/2000/svg" className="size-6 text-[#b77e47]" fill="none" viewBox="0 0 24 24" stroke="currentColor">

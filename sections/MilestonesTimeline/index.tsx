@@ -74,16 +74,16 @@ export default function MilestonesTimeline() {
   };
 
   return (
-    <section className="relative py-24 bg-gradient-to-b from-[#2a3530] to-[#2e493c] text-[#c9d1be] overflow-hidden">
+    <section className="relative py-24 bg-gradient-to-b from-[#4a1a1a] to-[#5b1a1a] text-[#d1bebe] overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[url('/images/pattern-bg.svg')] bg-repeat opacity-5"></div>
         <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-[#b77e47]/20 to-transparent"></div>
-        <div className="absolute bottom-0 right-0 w-full h-64 bg-gradient-to-t from-[#c9d1be]/20 to-transparent"></div>
+        <div className="absolute bottom-0 right-0 w-full h-64 bg-gradient-to-t from-[#d1bebe]/20 to-transparent"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#c9d1be] to-[#b77e47]">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
             Our Journey Through Time
           </span>
         </h2>
@@ -109,13 +109,13 @@ export default function MilestonesTimeline() {
                       className={`
                         transition-all duration-300 p-6 rounded-xl backdrop-blur-sm
                         ${activeIndex === index
-                          ? 'bg-gradient-to-r from-[#2e493c]/70 to-[#b77e47]/40 shadow-lg shadow-[#b77e47]/20'
-                          : 'bg-[#2a3530]/70 hover:bg-[#2a3530]/90'
+                          ? 'bg-gradient-to-r from-[#5b1a1a]/70 to-[#b77e47]/40 shadow-lg shadow-[#b77e47]/20'
+                          : 'bg-[#4a1a1a]/70 hover:bg-[#4a1a1a]/90'
                         }
                       `}
                     >
                     <h3 className="text-3xl font-bold mb-2 text-[#b77e47]">{milestone.year}</h3>
-                    <p className="text-[#c9d1be]">{milestone.description}</p>
+                    <p className="text-[#d1bebe]">{milestone.description}</p>
                   </div>
                 </div>
 
@@ -125,7 +125,7 @@ export default function MilestonesTimeline() {
                       size-6 rounded-full transition-all duration-300 cursor-pointer
                       ${activeIndex === index
                         ? 'bg-[#b77e47] ring-4 ring-[#b77e47]/30'
-                        : 'bg-[#2e493c] hover:bg-[#b77e47]'
+                        : 'bg-[#5b1a1a] hover:bg-[#b77e47]'
                       }
                     `}
                   ></div>

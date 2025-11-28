@@ -47,7 +47,7 @@ export default function LocationsSection() {
   ];
 
   return (
-    <div className="bg-[#CED1BF] px-3-75 py-40 text-[#2B3530] md:px-16 md:py-50">
+    <div className="bg-[#d1c4c4] px-3-75 py-40 text-[#4a1a1a] md:px-16 md:py-50">
       <div className="flex flex-col gap-12 md:gap-20">
         <SectionTitle>Our Presence</SectionTitle>
 

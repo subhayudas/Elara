@@ -40,7 +40,7 @@ export default function CompetitiveAdvantage() {
   ];
 
   return (
-    <div className="flex flex-col bg-[#CED1BF] text-[#2B3530] md:grid md:grid-cols-2">
+    <div className="flex flex-col bg-[#d1c4c4] text-[#4a1a1a] md:grid md:grid-cols-2">
       <div className="flex flex-col justify-center px-3-75 py-40 md:py-0">
         <div className="flex flex-col gap-12 md:ml-36 md:w-fit md:gap-16">
           <SectionTitle>Our Advantage</SectionTitle>
@@ -52,7 +52,7 @@ export default function CompetitiveAdvantage() {
           <div className="flex flex-col gap-6">
             {advantages.map((advantage, index) => (
               <div key={index} className="flex items-start gap-4">
-                <div className="mt-1.5 h-2 w-2 rounded-full bg-[#2B3530]"></div>
+                <div className="mt-1.5 h-2 w-2 rounded-full bg-[#4a1a1a]"></div>
                 <p className="text-lg font-normal">{advantage}</p>
               </div>
             ))}
@@ -61,7 +61,7 @@ export default function CompetitiveAdvantage() {
       </div>
 
       <ParallaxContainer parallaxAmount={25}>
-        <div className="h-full w-full bg-[#30493D]">
+        <div className="h-full w-full bg-[#5b1a1a]">
           <div className="grid h-full grid-cols-2 grid-rows-2 gap-4 p-8">
             <div className="relative flex items-center justify-center overflow-hidden rounded-lg">
               <div className="relative h-full w-full">

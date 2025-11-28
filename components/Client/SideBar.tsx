@@ -106,7 +106,7 @@ export default function SideBar({ setOpenSideBar }: SideBarProps) {
       className="fixed top-0 z-[200] w-full"
     >
       <motion.div
-        className="flex h-screen bg-[#CED1BF]"
+        className="flex h-screen bg-[#d1c4c4]"
         initial={{ clipPath: "inset(100% 0% 0% 0%)" }}
         animate={{ clipPath: "inset(0% 0% 0% 0%)" }}
         transition={{
@@ -148,7 +148,7 @@ export default function SideBar({ setOpenSideBar }: SideBarProps) {
           ))}
         </motion.div>
         <div className="flex-1 pt-7000svh pr-16 pb-3500svh pl-48">
-          <span className="text-1800svh text-[#2b3530]/80">Discover pages</span>
+          <span className="text-1800svh text-[#4a1a1a]/80">Discover pages</span>
           <nav
             aria-label="pages"
             className="mt-6400svh mb-8000svh grid grid-flow-col-dense grid-cols-2 grid-rows-5"
@@ -165,7 +165,7 @@ export default function SideBar({ setOpenSideBar }: SideBarProps) {
                     ease: [0.24, 0.43, 0.15, 0.97],
                   }}
                   key={"link-" + (i + 1)}
-                  className="cursor-default py-2 text-3000svh [line-height:120%] font-light text-[#2b3530] underline"
+                  className="cursor-default py-2 text-3000svh [line-height:120%] font-light text-[#4a1a1a] underline"
                 >
                   {eachColData.link}
                 </motion.div>
@@ -203,10 +203,10 @@ export default function SideBar({ setOpenSideBar }: SideBarProps) {
                 ease: [0.24, 0.43, 0.15, 0.97],
               }}
               id="contact-us"
-              className="space-y-2400svh text-1800svh text-[#2b3530]"
+              className="space-y-2400svh text-1800svh text-[#4a1a1a]"
             >
-              <div className="text-[#2b3530]/80">Contact Us</div>
-              <div className="flex items-center [&_.animated-underline]:h-[2px] [&_.animated-underline]:bg-[#2b3530]">
+              <div className="text-[#4a1a1a]/80">Contact Us</div>
+              <div className="flex items-center [&_.animated-underline]:h-[2px] [&_.animated-underline]:bg-[#4a1a1a]">
                 <DashedLink>customercare@Elaragroup.com</DashedLink>
                 <div className="mx-5">|</div>
                 <DashedLink>+91 11 40113227</DashedLink>
@@ -223,7 +223,7 @@ export default function SideBar({ setOpenSideBar }: SideBarProps) {
                 style={{
                   fontSize: "var(--text-1800svh)",
                 }}
-                className="gap-y-2400svh text-1800svh text-[#2b3530]/80 [&_div]:gap-x-10 [&_svg]:h-2400svh [&_svg]:w-auto [&>:first-child]:text-[#2b3530]/80"
+                className="gap-y-2400svh text-1800svh text-[#4a1a1a]/80 [&_div]:gap-x-10 [&_svg]:h-2400svh [&_svg]:w-auto [&>:first-child]:text-[#4a1a1a]/80"
               />
             </motion.div>
             <motion.div
@@ -235,7 +235,7 @@ export default function SideBar({ setOpenSideBar }: SideBarProps) {
               className="text-1600svh"
             >
               <Link href="#">
-                <DashedLink className="w-fit text-[#2b3530] [&_.animated-underline]:h-[2px] [&_.animated-underline]:bg-[#2b3530]">
+                <DashedLink className="w-fit text-[#4a1a1a] [&_.animated-underline]:h-[2px] [&_.animated-underline]:bg-[#4a1a1a]">
                   Policy and Terms
                 </DashedLink>
               </Link>

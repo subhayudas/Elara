@@ -5,7 +5,7 @@ import SectionTitle from "@/components/Server/SectionTitle";
 
 export default function IntroductionServer() {
   return (
-    <div className="grid grid-rows-[auto_auto] gap-y-12 bg-[#2B3530] px-3-75 pt-42-5 pb-35 text-[#D1CCBF] md:grid-cols-[1fr_1.9fr] md:grid-rows-[auto] md:gap-y-32 md:px-15 md:pt-56-25 md:pb-50">
+    <div className="grid grid-rows-[auto_auto] gap-y-12 bg-[#4a1a1a] px-3-75 pt-42-5 pb-35 text-[#d1bebe] md:grid-cols-[1fr_1.9fr] md:grid-rows-[auto] md:gap-y-32 md:px-15 md:pt-56-25 md:pb-50">
       <SectionTitle className="md:col-start-1">
         Introduction
       </SectionTitle>

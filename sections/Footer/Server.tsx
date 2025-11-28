@@ -51,8 +51,8 @@ export default function Footer() {
   ];
 
   return (
-    <div className="bg-[#2B3530] md:px-16">
-      <div className="grid grid-rows-[repeat(4,auto)] border-b border-white/50 px-3-75 py-20 text-[#D1CCBF] md:grid-cols-[1fr_1.375fr] md:grid-rows-2 md:px-0 md:pt-36 md:pb-28-75 [&_.animated-underline]:bg-[#D1CCBF]">
+    <div className="bg-[#4a1a1a] md:px-16">
+      <div className="grid grid-rows-[repeat(4,auto)] border-b border-white/50 px-3-75 py-20 text-[#d1bebe] md:grid-cols-[1fr_1.375fr] md:grid-rows-2 md:px-0 md:pt-36 md:pb-28-75 [&_.animated-underline]:bg-[#d1bebe]">
         <div>
           <LogoFull className="text-white scale-110 origin-left mb-4" />
           <ContactUs className="mt-17-5 hidden w-fit flex-col gap-y-8 text-base max-md:mt-16 md:flex [&>div]:gap-6 md:[&>div]:gap-4" />
@@ -62,7 +62,7 @@ export default function Footer() {
             i === 0 ? (
               <div
                 key={"list-item-" + (i + 1)}
-                className="underline decoration-[#D1CCBF] decoration-[1px] underline-offset-2"
+                className="underline decoration-[#d1bebe] decoration-[1px] underline-offset-2"
               >
                 {eachColData.link}
               </div>
@@ -70,7 +70,7 @@ export default function Footer() {
               <Link href={eachColData.href} key={"list-item" + (i + 1)}>
                 <DashedLink
                   key={"list-item-" + (i + 1)}
-                  className="w-fit [line-height:1] [&_.animated-underline]:bg-[#D1CCBF]"
+                  className="w-fit [line-height:1] [&_.animated-underline]:bg-[#d1bebe]"
                 >
                   {eachColData.link}
                 </DashedLink>
@@ -79,9 +79,9 @@ export default function Footer() {
           )}
         </ol>
         <ContactUs className="gap-y-8 text-base max-md:mt-16 md:hidden [&>div]:gap-x-5" />
-        <StayConnected className="justify-end gap-y-6 text-base [line-height:1] max-md:mt-12 md:col-start-2 md:gap-y-12 [&_div]:gap-x-8 md:[&_div]:gap-x-10 [&_path]:[fill:#D1CCBF]" />
+        <StayConnected className="justify-end gap-y-6 text-base [line-height:1] max-md:mt-12 md:col-start-2 md:gap-y-12 [&_div]:gap-x-8 md:[&_div]:gap-x-10 [&_path]:[fill:#d1bebe]" />
       </div>
-      <div className="flex flex-col gap-y-4 bg-[#2B3530] px-3-75 py-7-5 text-xs text-[#D1CCBF] md:flex-row md:justify-between md:pb-10 md:text-base [&_.animated-underline]:h-px [&_.animated-underline]:bg-[#D1CCBF]">
+      <div className="flex flex-col gap-y-4 bg-[#4a1a1a] px-3-75 py-7-5 text-xs text-[#d1bebe] md:flex-row md:justify-between md:pb-10 md:text-base [&_.animated-underline]:h-px [&_.animated-underline]:bg-[#d1bebe]">
         <div className="md:flex-1">© 2024 Elara Jewelry. All Rights Reserved</div>
         <Link href="#">
           <DashedLink className="w-fit cursor-pointer">
