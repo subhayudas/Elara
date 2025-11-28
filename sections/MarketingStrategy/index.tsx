@@ -229,15 +229,12 @@ export default function MarketingStrategy() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                     <div className="text-lg font-bold text-[#d1bebe]">Delhi</div>
-                    <div className="text-xs text-[#d1bebe]/70">Target Market</div>
                   </div>
                   <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                     <div className="text-lg font-bold text-[#d1bebe]">Mumbai</div>
-                    <div className="text-xs text-[#d1bebe]/70">Target Market</div>
                   </div>
                   <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                     <div className="text-lg font-bold text-[#d1bebe]">Bangalore</div>
-                    <div className="text-xs text-[#d1bebe]/70">Target Market</div>
                   </div>
                   <div className="bg-[#5b1a1a]/30 backdrop-blur-sm rounded-lg p-4 text-center border border-[#b77e47]/20">
                     <div className="text-lg font-bold text-[#d1bebe]">Pop Up Party</div>

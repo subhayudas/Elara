@@ -127,7 +127,7 @@ export default function FutureGrowth() {
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
-            Brand Codes
+            Future Growth
           </span>
         </h2>
         <p className="text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">

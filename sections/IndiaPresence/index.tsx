@@ -134,7 +134,7 @@ export default function IndiaPresence() {
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="section-title text-4xl md:text-5xl font-bold mb-4 text-center">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#d1bebe] to-[#b77e47]">
-            Target Markets
+            India Presence
           </span>
         </h2>
         <p className="section-title text-center text-[#d1bebe]/80 mb-16 max-w-3xl mx-auto">

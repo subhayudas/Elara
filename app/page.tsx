@@ -13,11 +13,9 @@ import Introduction from "@/sections/Introduction";
 // New sections
 // import MilestonesTimeline from "@/sections/MilestonesTimeline"; // Commented out as it's not being used
 
-import IndiaPresence from "@/sections/IndiaPresence";
 import BusinessChannels from "@/sections/BusinessChannels";
 import GlobalPresence from "@/sections/GlobalPresence";
 import MarketingStrategy from "@/sections/MarketingStrategy";
-import FutureGrowth from "@/sections/FutureGrowth";
 export default function Home() {
   return (
     <div className="overflow-clip">
@@ -28,8 +26,6 @@ export default function Home() {
       <RetailExcellence />
       <CompetitiveAdvantage />
       <BusinessChannels />
-      <IndiaPresence />
-      <FutureGrowth />
       <MarketingStrategy />
       <GlobalPresence />
       <Form />
