@@ -32,28 +32,7 @@ export default function NavBar() {
       }
     }
   });
-  const navItems = [
-    {
-      href: "#",
-      children: "Retail Brands",
-    },
-    {
-      href: "#",
-      children: "Distribution",
-    },
-    {
-      href: "#",
-      children: "Business Channels",
-    },
-    {
-      href: "#",
-      children: "About Us",
-    },
-    {
-      href: "#",
-      children: "Contact",
-    },
-  ];
+  const navItems = [];
 
   return (
     <>
